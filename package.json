@@ -6,7 +6,8 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "dependencies": {
     "@nuxt/content": "^1.5.0",
@@ -14,10 +15,11 @@
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^2.1.0",
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-prettier": "^3.1.4",
     "@tailwindcss/ui": "^0.3.1",
     "autoprefixer": "^9.8.5",
-    "prettier": "^2.0.5"
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.0.5",
+    "push-dir": "^0.4.1"
   }
 }
