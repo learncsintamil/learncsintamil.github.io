@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-orange-350">
+  <footer class="bg-orange-350">
     <div class="max-w-screen-xl py-12 mx-auto md:flex md:items-center md:justify-between">
       <div class="flex justify-center md:order-2">
         <a
@@ -84,7 +84,7 @@
         >&copy; 2020 Learn CS in Tamil. All rights reserved.</p>
       </div>
     </div>
-  </div>
+  </footer>
 </template>
 
 <script>
