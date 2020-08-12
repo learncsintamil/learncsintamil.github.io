@@ -40,7 +40,7 @@
             <a
               href="#"
               @click.prevent="onShowIntroVideo"
-              class="hover:text-indigo-650 transition duration-150 ease-in-out"
+              class="text-indigo-650 hover:text-gray-850 hover:underline font-semibold transition duration-150 ease-in-out text-lg"
             >Watch introduction video</a>
           </div>
         </div>

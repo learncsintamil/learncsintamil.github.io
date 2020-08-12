@@ -1,7 +1,8 @@
 <template>
-  <div class="pb-6 mt-6 sm:mt-10">
+  <div class="pb-6 mt-6 sm:mt-10 max-w-screen-lg mx-auto">
+    <!-- Course Banner -->
     <div
-      class="grid grid-cols-1 sm:col-gap-4 sm:grid-cols-8 rounded-xl bg-white card-container text-gray-850 p-4 sm:p-0 mt-3 max-w-screen-lg mx-auto"
+      class="grid grid-cols-1 sm:col-gap-4 sm:grid-cols-8 rounded-xl bg-white card-container text-gray-850 p-4 sm:p-0 mt-3"
     >
       <img
         class="rounded-xl sm:rounded-r-none object-contain mx-auto h-32 w-22 sm:h-full sm:object-fill sm:w-full sm:col-span-2"
@@ -10,10 +11,10 @@
       <div class="sm:col-span-6 sm:p-6 flex flex-col">
         <div class="flex flex-col sm:flex-row">
           <p
-            class="text-center sm:text-left text-gray-850 text-xl sm:text-2xl font-extrabold mt-3 sm:mt-0"
+            class="text-center sm:text-left text-gray-850 text-xl sm:text-4xl font-extrabold mt-3 sm:mt-0"
           >Basics of web development</p>
           <span
-            class="sm:ml-2 self-center sm:self-start inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium leading-4 bg-green-100 text-green-800"
+            class="mt-1 sm:mt-0 sm:ml-2 self-center sm:self-start inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium leading-4 bg-green-100 text-green-800"
           >Free</span>
         </div>
         <div class="mt-2 sm:mt-1 flex items-center self-center sm:self-start">
@@ -83,6 +84,79 @@
               </svg>
             </a>
           </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-10 grid grid-cols-1 sm:grid-cols-2 gap-4 sm:mx-40">
+      <div>
+        <p class="text-lg sm:text-3xl font-bold">What you'll learn</p>
+        <div class="mt-3">
+          <p class="flex items-center">
+            <svg viewBox="0 0 20 20" fill="currentColor" class="w-6 h-6 text-indigo-650">
+              <path
+                fill-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                clip-rule="evenodd"
+              />
+            </svg>
+            <span class="ml-3 text-lg">CSV import & export</span>
+          </p>
+          <p class="mt-2 flex items-center">
+            <svg viewBox="0 0 20 20" fill="currentColor" class="w-6 h-6 text-indigo-650">
+              <path
+                fill-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                clip-rule="evenodd"
+              />
+            </svg>
+            <span class="ml-3 text-lg">Creating custom types</span>
+          </p>
+          <p class="mt-2 flex items-center">
+            <svg viewBox="0 0 20 20" fill="currentColor" class="w-6 h-6 text-indigo-650">
+              <path
+                fill-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                clip-rule="evenodd"
+              />
+            </svg>
+            <span class="ml-3 text-lg">Query Performance</span>
+          </p>
+          <p class="mt-2 flex items-center">
+            <svg viewBox="0 0 20 20" fill="currentColor" class="w-6 h-6 text-indigo-650">
+              <path
+                fill-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                clip-rule="evenodd"
+              />
+            </svg>
+            <span class="ml-3 text-lg">Transactions</span>
+          </p>
+          <p class="mt-2 flex items-center">
+            <svg viewBox="0 0 20 20" fill="currentColor" class="w-6 h-6 text-indigo-650">
+              <path
+                fill-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                clip-rule="evenodd"
+              />
+            </svg>
+            <span class="ml-3 text-lg">Pattern Matching & Regex</span>
+          </p>
+        </div>
+      </div>
+      <div class="mt-6 sm:mt-0">
+        <p class="text-lg sm:text-3xl font-bold">Prerequisites</p>
+        <div class="mt-3">
+          <p class="mt-2 flex items-center">
+            <svg viewBox="0 0 20 20" fill="currentColor" class="w-6 h-6 text-indigo-650">
+              <path
+                fill-rule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                clip-rule="evenodd"
+              />
+            </svg>
+            <span class="ml-3 text-lg">Basic Computer operating skills</span>
+          </p>
         </div>
       </div>
     </div>
