@@ -26,7 +26,7 @@
         <a
           href="https://www.facebook.com/learncsintamil"
           target="_blank"
-          class="ml-6 text-gray-850 hover:text-indigo-650"
+          class="ml-8 text-gray-850 hover:text-indigo-650"
         >
           <span class="sr-only">Facebook</span>
           <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
@@ -40,7 +40,7 @@
         <a
           href="https://www.instagram.com/learncsintamil"
           target="_blank"
-          class="ml-6 text-gray-850 hover:text-indigo-650"
+          class="ml-8 text-gray-850 hover:text-indigo-650"
         >
           <span class="sr-only">Instagram</span>
           <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
@@ -54,7 +54,7 @@
         <a
           href="https://www.twitter.com/learncsintamil"
           target="_blank"
-          class="ml-6 text-gray-850 hover:text-indigo-650"
+          class="ml-8 text-gray-850 hover:text-indigo-650"
         >
           <span class="sr-only">Twitter</span>
           <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
@@ -66,7 +66,7 @@
         <a
           href="https://www.github.com/learncsintamil"
           target="_blank"
-          class="ml-6 text-gray-850 hover:text-indigo-650"
+          class="ml-8 text-gray-850 hover:text-indigo-650"
         >
           <span class="sr-only">GitHub</span>
           <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">

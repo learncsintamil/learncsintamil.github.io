@@ -30,6 +30,7 @@ export default {
   */
   css: [
     '~/assets/fonts/inter.css',
+    '~/assets/css/custom.css',
   ],
   /*
   ** Plugins to load before mounting the App

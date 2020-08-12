@@ -2,7 +2,7 @@
   <div>
     <div
       @keydown.esc="onHideIntroVideo"
-      class="relative pt-4 px-4 sm:px-8 sm:pt-10 pb-12 sm:pb-16 md:pb-20 lg:pb-28 xl:pb-32"
+      class="relative px-4 sm:px-8 sm:pt-10 pb-12 sm:pb-16 md:pb-20 lg:pb-28 xl:pb-32"
     >
       <main class="mt-6 mx-auto max-w-screen-xl sm:mt-12 md:mt-16 lg:mt-20 xl:mt-28">
         <div class="text-center">

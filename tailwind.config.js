@@ -10,6 +10,7 @@ module.exports = {
       colors: {
         'orange-50': '#fffaf5',
         'orange-350': '#FBF5EF',
+        'indigo-150': '#F2F0FA',
         'indigo-650': '#5D3AC5',
         'indigo-750': '#4a2e9e',
         'gray-850': '#191714'

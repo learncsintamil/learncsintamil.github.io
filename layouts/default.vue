@@ -1,18 +1,20 @@
 <template>
   <div>
-    <header class="max-w-screen-xl mx-auto mt-4 px-4 sm:px-8 sm:mt-6">
+    <header class="max-w-screen-xl mx-auto mt-4 px-4 sm:px-8 xl:px-0 sm:mt-6">
       <nav class="relative flex items-center justify-between sm:h-10 md:justify-center">
         <div class="flex items-center flex-1 md:absolute md:inset-y-0 md:left-0">
           <div class="flex items-center justify-between w-full md:w-auto">
-            <a class="text-indigo-750" href="#" aria-label="Home">
-              <Logo class="h-12 sm:h-16 w-auto"></Logo>
+            <a class="text-indigo-750" href="/" aria-label="Home">
+              <Logo class="h-14 sm:h-16 w-auto"></Logo>
             </a>
           </div>
         </div>
       </nav>
     </header>
 
-    <Nuxt />
+    <div class="pt-4 px-4 sm:px-8 text-gray-850">
+      <Nuxt />
+    </div>
 
     <Footer class="px-4 sm:px-8"></Footer>
 
