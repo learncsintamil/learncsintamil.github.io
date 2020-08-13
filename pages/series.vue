@@ -95,6 +95,73 @@
         </div>
       </div>
     </div>
+
+    <p class="text-center mt-10 text-xl sm:text-3xl font-bold">Lessons</p>
+    <div class="flex flex-col items-center">
+      <div class="mt-8 flex flex-row px-2 sm:px-20">
+        <span
+          class="inline-flex flex-none items-center justify-center h-8 w-8 sm:h-10 sm:w-10 rounded-full bg-brown-light"
+        >
+          <span class="text-base sm:text-lg font-medium leading-none text-black">01</span>
+        </span>
+
+        <div class="flex flex-col ml-6">
+          <div class="flex">
+            <a
+              class="text-base sm:text-xl font-bold text-indigo-650 hover:text-gray-850 hover:underline"
+              href="#"
+            >Let's Build a Memory Game</a>
+            <FreeBadge></FreeBadge>
+          </div>
+          <div class="mt-1 flex items-center flex-row text-gray-600">
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-3 h-3">
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+              />
+            </svg>
+            <p class="ml-1 text-xs">1m 12s</p>
+          </div>
+          <p
+            class="mt-3"
+          >Before we dig into Alpine, let's first build something simple, but demonstrative of what your typical workflow might look like. Please note that this episode will move a bit more quickly and is not intended to be your "Step 1" for learning Alpine. Just come along for the ride, and then, in the next episode, we'll hit the breaks, rewind, and start learning each piece of the puzzle from scratch.</p>
+        </div>
+      </div>
+
+      <div class="mt-8 flex flex-row px-2 sm:px-20">
+        <span
+          class="inline-flex flex-none items-center justify-center h-8 w-8 sm:h-10 sm:w-10 rounded-full bg-brown-light"
+        >
+          <span class="text-base sm:text-lg font-medium leading-none text-black">02</span>
+        </span>
+
+        <div class="flex flex-col ml-6">
+          <div class="flex">
+            <a
+              class="text-base sm:text-xl font-bold text-indigo-650 hover:text-gray-850 hover:underline"
+              href="#"
+            >Let's Build a Memory Game</a>
+            <FreeBadge></FreeBadge>
+          </div>
+          <div class="mt-1 flex items-center flex-row text-gray-600">
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-3 h-3">
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+              />
+            </svg>
+            <p class="ml-1 text-xs">1m 12s</p>
+          </div>
+          <p
+            class="mt-3"
+          >Before we dig into Alpine, let's first build something simple, but demonstrative of what your typical workflow might look like. Please note that this episode will move a bit more quickly and is not intended to be your "Step 1" for learning Alpine. Just come along for the ride, and then, in the next episode, we'll hit the breaks, rewind, and start learning each piece of the puzzle from scratch.</p>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 

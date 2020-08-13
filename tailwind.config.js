@@ -13,7 +13,9 @@ module.exports = {
         'indigo-150': '#F2F0FA',
         'indigo-650': '#5D3AC5',
         'indigo-750': '#4a2e9e',
-        'gray-850': '#191714'
+        'gray-850': '#191714',
+        'brown-dark': '#C9BFB5',
+        'brown-light': '#dfd9d3'
       },
       spacing: {
         '128': '32rem',
