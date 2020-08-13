@@ -1,0 +1,49 @@
+{
+  "slug": "basics-of-web-development",
+  "title": "Basics of Web Development",
+  "description": "Developing a website on our own and seeing it live is one of the joyful experience. In this course, we will be learning how to create and publish a simple website from scratch with no prior programming experience. And of course, You will be learning the basics of HTML and CSS along the way :)",
+  "publishedOn": "2020-07-31",
+  "lastUpdatedOn": "2020-08-03",
+  "isFree": true,
+  "level": "Beginner",
+  "bannerImagePath": "logos/courses/basics-of-web-development-logo.png",
+  "learningOutcomes": [
+    "How to start web development",
+    "Create a simple website",
+    "Publish a website on internet",
+    "Syntax of HTML",
+    "Syntax of CSS"
+  ],
+  "prerequisites": [
+    "Basic computer operating skills"
+  ],
+  "lessons": {
+    "mental-model": {
+      "slug": "mental-model",
+      "title": "Mental Model",
+      "description": "In this lesson, we will be learning about a mental model which will help you to learn website development efficiently.",
+      "duration": 453,
+      "order" : 1,
+      "isFree": true,
+      "publishedOn": "2020-07-31"
+    },
+    "developing-and-publishing-your-first-website": {
+      "slug": "developing-and-publishing-your-first-website",
+      "title": "Developing And Publishing Your First Website",
+      "description": "In this lesson, we will be learning the basics of the HTML syntax and how to create a simple webpage using it. Then we'll be publishing this website on the Internet using Netlify.",
+      "duration": 2549,
+      "order": 2,
+      "isFree": true,
+      "publishedOn": "2020-08-03"
+    },
+    "basics-of-css": {
+      "slug": "basics-of-css",
+      "title": "Basics of CSS",
+      "description": "In this lesson, we will be learning the basics of the CSS and how to make a webpage beautiful.",
+      "duration": 0,
+      "isFree": true,
+      "order": 3,
+      "publishedOn": null
+    }
+  }
+}
