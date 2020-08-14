@@ -1,3 +1,12 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+
+.link {
+  @apply text-gray-850 transition duration-150 ease-in-out;
+}
+
+.link:hover {
+  @apply text-indigo-750;
+}

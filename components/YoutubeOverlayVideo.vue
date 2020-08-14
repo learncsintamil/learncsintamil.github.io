@@ -3,7 +3,7 @@
     <iframe
       v-if="open"
       class="w-full h-full sm:w-240 sm:h-128"
-      src="https://www.youtube.com/embed/rIwpFds_xb8"
+      :src="youtubeUrl"
       frameborder="0"
       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen
@@ -15,6 +15,11 @@
 import Overlay from './Overlay'
 export default {
   components: {Overlay},
+  computed: {
+    youtubeUrl() {
+      return this.src + "?autoplay=1";
+    }
+  },
   props: {
     open: {
       type: Boolean,
@@ -22,6 +27,10 @@ export default {
     onClose: {
       type: Function,
     },
+    src: {
+      type: String,
+      required: true
+    }
   },
 }
 </script>

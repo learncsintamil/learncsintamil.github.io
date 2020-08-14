@@ -72,6 +72,7 @@ export default {
   },
 
   watch: [
-    '~/data/courses/*.json'
+    '~/data/courses/*.json',
+    '~/data/*.json'
   ]
 }

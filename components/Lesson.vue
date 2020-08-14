@@ -8,13 +8,18 @@
 
     <div class="flex flex-col ml-6">
       <div class="flex">
-        <a
-          class="text-base sm:text-xl font-bold text-indigo-650 hover:text-gray-850 hover:underline"
-          href="#"
-        >{{lesson.title}}</a>
-        <FreeBadge v-if="lesson.isFree"></FreeBadge>
+        <span
+          class="text-base sm:text-xl font-bold cursor-pointer link"
+          :href="lesson.url"
+          target="_blank"
+          @click="showVideo = true"
+          v-if="lesson.url"
+        >{{lesson.title}}</span>
+        <span v-if="!lesson.url" class="text-base sm:text-xl font-bold">{{lesson.title}}</span>
+        <FreeBadge v-if="lesson.publishedOn && lesson.isFree" class="mt-1 sm:mt-0 ml-2 self-start "></FreeBadge>
+        <ComingSoonBadge v-if="!lesson.publishedOn" class="mt-1 sm:mt-0 ml-2 self-start "></ComingSoonBadge>
       </div>
-      <div class="flex items-center flex-row text-gray-600">
+      <div class="flex items-center flex-row text-gray-600" v-if="lesson.publishedOn">
         <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-3 h-3">
           <path
             stroke-linecap="round"
@@ -29,6 +34,7 @@
         class="mt-3"
       >{{lesson.description}}</p>
     </div>
+    <YoutubeOverlayVideo v-if="lesson.url" :open="showVideo" :src="lesson.url" :onClose="onHideVideo"></YoutubeOverlayVideo>
   </div>
 </template>
 
@@ -39,6 +45,14 @@ export default {
       type: Object,
       required: true
     }
+  },
+  methods: {
+    onHideVideo () {
+      this.showVideo = false;
+    }
+  },
+  data() {
+    return {showVideo: false}
   }
 }
 </script>

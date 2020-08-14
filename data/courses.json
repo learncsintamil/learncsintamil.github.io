@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1597335074600,
+  "generatedAt": 1597412290035,
   "data": {
     "basics-of-web-development": {
       "slug": "basics-of-web-development",
@@ -9,7 +9,9 @@
       "lastUpdatedOn": "2020-08-03",
       "isFree": true,
       "level": "Beginner",
-      "bannerImagePath": "logos/courses/basics-of-web-development-logo.png",
+      "duration": 3002,
+      "lessonsCount": 3,
+      "bannerImagePath": "/logos/courses/basics-of-web-development-logo.png",
       "learningOutcomes": [
         "How to start web development",
         "Create a simple website",
@@ -20,10 +22,12 @@
       "prerequisites": [
         "Basic computer operating skills"
       ],
+      "startUrl": "https://www.youtube.com/embed/YbjAMdHMhw4",
       "lessons": {
         "mental-model": {
           "slug": "mental-model",
           "title": "Mental Model",
+          "url": "https://www.youtube.com/embed/YbjAMdHMhw4",
           "description": "In this lesson, we will be learning about a mental model which will help you to learn website development efficiently.",
           "duration": 453,
           "order": 1,
@@ -33,6 +37,7 @@
         "developing-and-publishing-your-first-website": {
           "slug": "developing-and-publishing-your-first-website",
           "title": "Developing And Publishing Your First Website",
+          "url": "https://www.youtube.com/embed/HGjIaarRVi0",
           "description": "In this lesson, we will be learning the basics of the HTML syntax and how to create a simple webpage using it. Then we'll be publishing this website on the Internet using Netlify.",
           "duration": 2549,
           "order": 2,
