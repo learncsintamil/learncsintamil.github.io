@@ -6,7 +6,7 @@
   "lastUpdatedOn": "2020-08-03",
   "isFree": true,
   "level": "Beginner",
-  "bannerImagePath": "logos/courses/basics-of-web-development-logo.png",
+  "bannerImagePath": "/logos/courses/basics-of-web-development-logo.png",
   "learningOutcomes": [
     "How to start web development",
     "Create a simple website",

@@ -5,10 +5,6 @@
     <div
       class="grid grid-cols-1 sm:col-gap-4 sm:grid-cols-8 rounded-xl bg-white card-container text-gray-850 p-4 sm:p-0 mt-3"
     >
-      <img
-        class="rounded-xl sm:rounded-r-none object-contain mx-auto h-32 w-22 sm:h-full sm:object-fill sm:w-full sm:col-span-2"
-        src="~/assets/logos/courses/basics-of-web-development-logo.png"
-      />
       <div class="sm:col-span-6 sm:p-6 flex flex-col">
         <div class="flex flex-col sm:flex-row">
           <p

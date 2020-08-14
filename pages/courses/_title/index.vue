@@ -6,12 +6,12 @@
     >
       <img
         class="rounded-xl sm:rounded-r-none object-contain mx-auto h-32 w-22 sm:h-full sm:object-fill sm:w-full sm:col-span-2"
-        :src="bannerImagePath"
+        :src="course.bannerImagePath"
       />
       <div class="sm:col-span-6 sm:p-6 flex flex-col">
         <div class="flex flex-col sm:flex-row">
           <p
-            class="text-center sm:text-left text-gray-850 text-xl sm:text-4xl font-extrabold mt-3 sm:mt-0"
+            class="font-serif text-center sm:text-left text-gray-850 text-xl sm:text-4xl font-extrabold mt-3 sm:mt-0"
           >{{course.title}}</p>
           <FreeBadge v-if="course.isFree"></FreeBadge>
         </div>
@@ -57,13 +57,13 @@
               stroke-width="2"
               stroke-linecap="round"
               stroke-linejoin="round"
-              class="h-5 w-5 mr-2 sm:mr-1"
+              class="h-5 w-5 mr-2 sm:mr-3"
             >
               <polygon points="5 3 19 12 5 21 5 3" />
             </svg>
             Start Watching
           </a>
-          <div class="mx-3"></div>
+          <div class="mx-2"></div>
           <div class="flex flex-row mt-6 sm:mt-0 self-end sm:ml-64">
             <FacebookIcon url="#"></FacebookIcon>
             <TwitterIcon url="#"></TwitterIcon>
@@ -74,20 +74,20 @@
 
     <div class="mt-10 grid grid-cols-1 sm:grid-cols-2 gap-4">
       <div class="sm:flex sm:flex-col sm:items-center">
-        <p class="text-lg sm:text-3xl font-bold">What you'll learn</p>
+        <p class="text-lg sm:text-3xl font-bold font-serif">What you'll learn</p>
         <div class="mt-1">
           <CheckListItem class="mt-2" :itemText="lo" :key="index" v-for="(lo,index) in course.learningOutcomes"></CheckListItem>
         </div>
       </div>
       <div class="mt-6 sm:mt-0 sm:flex sm:flex-col sm:items-center">
-        <p class="text-lg sm:text-3xl font-bold">Prerequisites</p>
+        <p class="text-lg sm:text-3xl font-bold font-serif">Prerequisites</p>
         <div class="mt-1">
           <CheckListItem class="mt-2" :itemText="preq" :key="index" v-for="(preq,index) in course.prerequisites"></CheckListItem>
         </div>
       </div>
     </div>
 
-    <p class="text-center mt-10 text-xl sm:text-3xl font-bold">Lessons</p>
+    <p class="text-center mt-10 text-lg sm:text-3xl font-bold font-serif">Lessons</p>
     <div class="flex flex-col items-center">
 
       <Lesson :lesson="lesson" :key="lesson.slug" v-for="lesson in course.lessons"></Lesson>

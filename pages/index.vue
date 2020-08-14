@@ -7,7 +7,7 @@
       <main class="mt-6 mx-auto max-w-screen-xl sm:mt-12 md:mt-16 lg:mt-20 xl:mt-28">
         <div class="text-center">
           <h2
-            class="headline tracking-tight text-3xl sm:text-5xl leading-10 font-extrabold text-gray-850 sm:leading-none"
+            class="font-serif text-3xl sm:text-5xl leading-10 font-extrabold text-gray-850 sm:leading-none"
           >Your software development coach</h2>
           <p
             class="mt-3 md:mt-6 mx-auto max-w-xl text-gray-850 text-xl sm:text-2xl"

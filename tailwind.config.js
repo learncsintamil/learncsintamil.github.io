@@ -22,7 +22,8 @@ module.exports = {
         '240': '60rem'
       },
       fontFamily: {
-        sans: ["Inter var"]
+        sans: ["Inter var"],
+        serif: ["IBM Plex Serif"]
       },
       borderRadius: {
         'xl': '1rem'
