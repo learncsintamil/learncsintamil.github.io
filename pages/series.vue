@@ -1,6 +1,7 @@
 <template>
   <div class="pb-6 mt-6 sm:mt-10 max-w-screen-lg mx-auto">
     <!-- Course Banner -->
+    <nuxt-link to="/courses/basics-of-web-development">Link1</nuxt-link>
     <div
       class="grid grid-cols-1 sm:col-gap-4 sm:grid-cols-8 rounded-xl bg-white card-container text-gray-850 p-4 sm:p-0 mt-3"
     >

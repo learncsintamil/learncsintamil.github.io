@@ -89,6 +89,7 @@
 
     <p class="text-center mt-10 text-xl sm:text-3xl font-bold">Lessons</p>
     <div class="flex flex-col items-center">
+
       <Lesson :lesson="lesson" :key="lesson.slug" v-for="lesson in course.lessons"></Lesson>
     </div>
   </div>
@@ -96,11 +97,11 @@
 
 <script>
 
-import FreeBadge from '../../components/FreeBadge'
-import CheckListItem from '../../components/CheckListItem'
-import TwitterIcon from '../../components/icons/Twitter'
-import FacebookIcon from '../../components/icons/Facebook'
-import Lesson from '../../components/Lesson'
+import FreeBadge from '../../../components/FreeBadge'
+import CheckListItem from '../../../components/CheckListItem'
+import TwitterIcon from '../../../components/icons/Twitter'
+import FacebookIcon from '../../../components/icons/Facebook'
+import Lesson from '../../../components/Lesson'
 
 const getCourse = (title) => import(`~/data/courses/${title}.json`).then(m => m);
 export default {
