@@ -35,7 +35,7 @@
             </div>
           </div>
           <div class="hidden md:flex md:space-x-10">
-            <nuxt-link to="/courses" class="font-medium link">Courses</nuxt-link>
+            <nuxt-link to="/courses/" class="font-medium link">Courses</nuxt-link>
           </div>
         </nav>
       </header>

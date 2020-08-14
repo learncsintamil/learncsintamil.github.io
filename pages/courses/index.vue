@@ -4,7 +4,7 @@
       <nuxt-link
         v-for="course in courses"
         :key="course.slug"
-        to="/courses/basics-of-web-development"
+        to="/courses/basics-of-web-development/"
         class="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 card-container p-4 bg-white rounded-xl flex flex-col"
       >
         <img :src="course.bannerImagePath" class="card-container rounded-xl h-32 w-32 mx-auto" />

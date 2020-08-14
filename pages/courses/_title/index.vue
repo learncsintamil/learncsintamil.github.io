@@ -105,7 +105,7 @@ export default {
       title: this.course.title,
       meta: [
         { hid: 'og_type', name: 'og:type', content: 'video.other' },
-        { hid: 'og_url', name: 'og:url', content: 'https://www.learncsintamil.com/courses/' + this.course.slug},
+        { hid: 'og_url', name: 'og:url', content: 'https://www.learncsintamil.com/courses/' + this.course.slug + "/"},
         { hid: 'og_title', name: 'og:title', content: this.course.title },
         { hid: 'og_description', name: 'og:description', content: this.course.description },
         { hid: 'description', name: 'description', content: this.course.description },
@@ -120,10 +120,10 @@ export default {
   },
   computed: {
     facebookShareUrl() {
-      return `https://www.facebook.com/sharer.php?u=https://learncsintamil.com/courses/${this.course.slug}`
+      return `https://www.facebook.com/sharer.php?u=https://learncsintamil.com/courses/${this.course.slug}/`
     },
     twitterShareUrl() {
-      return `https://twitter.com/intent/tweet?text=I'm watching "${this.course.title}" in @learncsintamil https://learncsintamil.com/courses/${this.course.slug}`
+      return `https://twitter.com/intent/tweet?text=I'm watching "${this.course.title}" in @learncsintamil https://learncsintamil.com/courses/${this.course.slug}/`
     },
   },
   data() {
