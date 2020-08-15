@@ -1,5 +1,5 @@
 <template>
-  <div class="self-start mt-10 flex flex-row px-2 sm:px-20">
+  <div class="self-start mt-4 flex flex-row px-4 py-6 sm:px-20 bg-white shadow-lg w-full">
     <span
       class="inline-flex flex-none items-center justify-center h-8 w-8 sm:h-10 sm:w-10 rounded-full bg-brown-light"
     >
@@ -10,7 +10,6 @@
       <div class="flex">
         <span
           class="text-base sm:text-xl font-bold cursor-pointer link"
-          :href="lesson.url"
           target="_blank"
           @click="showVideo = true"
           v-if="lesson.url"
@@ -31,7 +30,7 @@
         <p class="ml-1 text-xs">{{lesson.duration | duration}}</p>
       </div>
       <p
-        class="mt-3"
+        class="mt-3 text-sm sm:text-base"
       >{{lesson.description}}</p>
     </div>
     <YoutubeOverlayVideo v-if="lesson.url" :open="showVideo" :src="lesson.url" :onClose="onHideVideo"></YoutubeOverlayVideo>
