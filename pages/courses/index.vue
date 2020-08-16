@@ -4,15 +4,17 @@
       <nuxt-link
         v-for="course in courses"
         :key="course.slug"
-        to="/courses/basics-of-web-development/"
+        :to="courseUrl(course.slug)"
         class="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 card-container p-4 bg-white rounded-xl flex flex-col"
       >
+        <div class="flex">
+          <FreeBadge v-if="course.isFree" class="mt-2 sm:mt-1 self-end"></FreeBadge>
+        </div>
         <img :src="course.bannerImagePath" class="card-container rounded-xl h-32 w-32 mx-auto" />
         <p
           class="font-serif text-center text-gray-850 text-lg sm:text-2xl font-extrabold mt-6"
         >{{course.title}}</p>
-        <FreeBadge v-if="course.isFree" class="mt-2 sm:mt-1 self-center"></FreeBadge>
-        <div class>
+        <div>
           <CourseSummary
             :lessonsCount="course.lessonsCount"
             :duration="course.duration"
@@ -36,7 +38,12 @@ export default {
   components: { CourseSummary },
   head() {
     return {
-      title: 'Courses'
+      title: 'Courses | Learn CS in Tamil'
+    }
+  },
+  methods: {
+    courseUrl(slug) {
+      return `/courses/${slug}/`;
     }
   },
   async asyncData({ params }) {

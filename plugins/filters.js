@@ -10,7 +10,7 @@ Vue.filter('duration', val => {
   const oneHourInSeconds = 60 * oneMinInSeconds;
   if (val >= oneHourInSeconds) {
     const h = Math.floor(val / oneHourInSeconds);
-    const m = Math.floor(val % oneMinInSeconds);
+    const m = Math.floor((val % oneHourInSeconds) / oneMinInSeconds);
     return `${twoDigitify(h)}h ${twoDigitify(m)}m`;
   }
   const m = Math.floor(val / oneMinInSeconds);

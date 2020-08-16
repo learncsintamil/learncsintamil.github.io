@@ -2,13 +2,13 @@
   <div class="pb-24 mt-6 sm:mt-10 max-w-screen-lg mx-auto">
     <!-- Course Banner -->
     <div
-      class="grid grid-cols-1 sm:col-gap-4 sm:grid-cols-8 rounded-xl bg-white card-container text-gray-850 p-4 sm:p-0 mt-3"
+      class="grid grid-cols-1 lg:col-gap-4 lg:grid-cols-8 rounded-xl bg-white card-container text-gray-850 p-4 lg:p-0 mt-3"
     >
       <img
-        class="rounded-xl sm:rounded-r-none object-contain mx-auto h-32 w-22 sm:h-full sm:object-fill sm:w-full sm:col-span-2"
+        class="rounded-xl lg:rounded-r-none object-contain mx-auto h-32 w-22 lg:h-full lg:object-fill lg:w-full lg:col-span-2"
         :src="course.bannerImagePath"
       />
-      <div class="sm:col-span-6 sm:p-6 flex flex-col">
+      <div class="lg:col-span-6 lg:p-6 flex flex-col">
         <div class="flex flex-col sm:flex-row">
           <p
             class="font-serif text-center sm:text-left text-gray-850 text-xl sm:text-4xl font-extrabold mt-3 sm:mt-0"
@@ -21,7 +21,7 @@
           :duration="course.duration"
           :level="course.level"
         ></CourseSummary>
-        <p class="mt-6">{{course.description}}</p>
+        <p class="hidden lg:block mt-6">{{course.description}}</p>
         <div class="flex flex-col sm:flex-row sm:justify-between">
           <button
             @click="showVideo = true"
@@ -41,7 +41,7 @@
             Start Watching
           </button>
           <div class="mx-2"></div>
-          <div class="flex flex-row mt-6 sm:mt-0 self-end sm:ml-64">
+          <div class="flex flex-row mt-6 lg:mt-0 self-end lg:ml-64">
             <FacebookIcon :url="facebookShareUrl"></FacebookIcon>
             <TwitterIcon :url="twitterShareUrl"></TwitterIcon>
           </div>
@@ -131,6 +131,7 @@ export default {
   },
   async asyncData({ params }) {
     try {
+      debugger;
       const course = await getCourse(params.title)
       return { course: course }
     } catch {
