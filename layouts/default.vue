@@ -90,11 +90,11 @@
         </div>
       </transition>
 
-      <div class="pt-4 px-4 sm:px-8 text-gray-850 mx-auto max-w-screen-xl">
+      <div class="pt-4 text-gray-850 mx-auto max-w-screen-xl" :class="{'px-4 sm:px-8' : !isHomePage}">
         <Nuxt />
       </div>
     </div>
-    <Footer class="px-4 sm:px-8" :showNewsletterSubscription="!isHomePage"></Footer>
+    <Footer class="px-4 sm:px-8" :isHomePage="isHomePage"></Footer>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-173138897-1"></script>

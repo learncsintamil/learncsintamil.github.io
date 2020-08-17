@@ -1,7 +1,7 @@
 <template>
-  <footer class="bg-orange-50">
+  <footer :class="{'bg-orange-350' : isHomePage, 'bg-orange-50' : !isHomePage}">
     <div class="max-w-screen-xl pb-12 mx-auto">
-      <div v-if="showNewsletterSubscription" class="py-8 border-b border-brown-light">
+      <div v-if="!isHomePage" class="py-8 border-b border-brown-light mb-12">
         <h4
           class="text-sm leading-5 font-semibold tracking-wider uppercase"
         >Want notifications about new videos?</h4>
@@ -10,7 +10,7 @@
         >Subscribe here to stay up to date.</p>
         <NewsletterSubscription class="mt-5 max-w-xl sm:flex md:mt-8" :small="true"></NewsletterSubscription>
       </div>
-      <div class="mt-12 md:flex md:items-center md:justify-between pt-12">
+      <div class="md:flex md:items-center md:justify-between">
         <div class="flex justify-center md:order-2">
           <a
             href="https://www.youtube.com/channel/UC1_tagYKJEG8cB_ORkoZACQ"
@@ -80,7 +80,7 @@ import FacebookIcon from '../components/icons/Facebook'
 export default {
   components: { TwitterIcon, FacebookIcon },
   props: {
-    showNewsletterSubscription: {
+    isHomePage: {
       type: Boolean,
       required: true
     }

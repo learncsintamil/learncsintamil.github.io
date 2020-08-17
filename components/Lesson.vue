@@ -15,10 +15,13 @@
           v-if="lesson.url"
         >{{lesson.title}}</span>
         <span v-if="!lesson.url" class="text-base sm:text-xl font-bold">{{lesson.title}}</span>
-        <FreeBadge v-if="lesson.publishedOn && lesson.isFree" class="mt-1 sm:mt-0 ml-2 self-start "></FreeBadge>
-        <ComingSoonBadge v-if="!lesson.publishedOn" class="mt-1 sm:mt-0 ml-2 self-start "></ComingSoonBadge>
+        <FreeBadge
+          v-if="lesson.publishedOn && lesson.isFree"
+          class="mt-1 sm:mt-0 ml-2 self-start"
+        ></FreeBadge>
+        <ComingSoonBadge v-if="!lesson.publishedOn" class="mt-1 sm:mt-0 ml-2 self-start"></ComingSoonBadge>
       </div>
-      <div class="flex items-center flex-row text-gray-600" v-if="lesson.publishedOn">
+      <div class="flex items-center flex-row text-gray-600 pt-1" v-if="lesson.publishedOn">
         <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-3 h-3">
           <path
             stroke-linecap="round"
@@ -29,29 +32,32 @@
         </svg>
         <p class="ml-1 text-xs">{{lesson.duration | duration}}</p>
       </div>
-      <p
-        class="mt-3 text-sm sm:text-base"
-      >{{lesson.description}}</p>
+      <p class="mt-3 text-sm sm:text-base">{{lesson.description}}</p>
     </div>
-    <YoutubeOverlayVideo v-if="lesson.url" :open="showVideo" :src="lesson.url" :onClose="onHideVideo"></YoutubeOverlayVideo>
+    <YoutubeOverlayVideo
+      v-if="lesson.url"
+      :open="showVideo"
+      :src="lesson.url"
+      :onClose="onHideVideo"
+    ></YoutubeOverlayVideo>
   </div>
 </template>
 
 <script>
 export default {
   props: {
-    lesson : {
+    lesson: {
       type: Object,
-      required: true
-    }
+      required: true,
+    },
   },
   methods: {
-    onHideVideo () {
-      this.showVideo = false;
-    }
+    onHideVideo() {
+      this.showVideo = false
+    },
   },
   data() {
-    return {showVideo: false}
-  }
+    return { showVideo: false }
+  },
 }
 </script>

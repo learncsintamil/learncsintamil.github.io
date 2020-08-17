@@ -1,30 +1,8 @@
 <template>
   <div class="pb-24 mt-8 sm:mt-14 max-w-screen-lg mx-auto">
     <div class="px-2 sm:px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-      <nuxt-link
-        v-for="course in courses"
-        :key="course.slug"
-        :to="courseUrl(course.slug)"
-        class="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 card-container p-4 bg-white rounded-xl flex flex-col"
-      >
-        <div class="flex">
-          <FreeBadge v-if="course.isFree" class="mt-2 sm:mt-1 self-end"></FreeBadge>
-        </div>
-        <img :src="course.bannerImagePath" class="card-container rounded-xl h-32 w-32 mx-auto" />
-        <p
-          class="font-serif text-center text-gray-850 text-lg sm:text-2xl font-extrabold mt-6"
-        >{{course.title}}</p>
-        <div>
-          <CourseSummary
-            :lessonsCount="course.lessonsCount"
-            :duration="course.duration"
-            :level="course.level"
-            class="mt-2 sm:mt-1 justify-center"
-          ></CourseSummary>
-        </div>
-      </nuxt-link>
+      <Course v-for="course in courses" :key="course.slug" :course="course"></Course>
     </div>
-
   </div>
 </template>
 
@@ -32,18 +10,13 @@
 const getCourses = () =>
   import(`~/data/courses.json`).then((m) => Object.values(m.data))
 
-import CourseSummary from '../../components/CourseSummary'
+import Course from '../../components/Course'
 
 export default {
-  components: { CourseSummary },
+  components: { Course },
   head() {
     return {
-      title: 'Courses | Learn CS in Tamil'
-    }
-  },
-  methods: {
-    courseUrl(slug) {
-      return `/courses/${slug}/`;
+      title: 'Courses | Learn CS in Tamil',
     }
   },
   async asyncData({ params }) {

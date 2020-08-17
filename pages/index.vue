@@ -2,9 +2,9 @@
   <div>
     <div
       @keydown.esc="onHideIntroVideo"
-      class="relative px-4 sm:px-8 sm:pt-10 pb-12 sm:pb-16 md:pb-20 lg:pb-28 xl:pb-32"
+      class="relative sm:pt-10 pb-12 sm:pb-16"
     >
-      <main class="mt-6 mx-auto max-w-screen-xl sm:mt-12 md:mt-16 lg:mt-20 xl:mt-28">
+      <main class="px-4 sm:px-8 mt-6 mx-auto max-w-screen-xl sm:mt-12 md:mt-16 lg:mt-20 xl:mt-28">
         <div class="text-center">
           <h2
             class="font-serif text-3xl sm:text-5xl leading-10 font-extrabold text-gray-850 sm:leading-none"
@@ -22,6 +22,12 @@
           </div>
         </div>
       </main>
+      <div class="bg-orange-50 mt-16 pt-12 pb-24 sm:pb-36 flex flex-col justify-center items-center">
+        <p class="text-xl sm:text-2xl font-semibold font-serif">Featured Course</p>
+        <div class="lg:w-1/3 bg-orange-50 pt-12 px-4 sm:px-8">
+          <Course :course="featuredCourse"></Course>
+        </div>
+      </div>
       <YoutubeOverlayVideo
         :open="showIntroVideo"
         src="https://www.youtube.com/embed/rIwpFds_xb8"
@@ -36,9 +42,21 @@ import Logo from './../components/Logo'
 import YoutubeOverlayVideo from './../components/YoutubeOverlayVideo'
 import NewsletterSubscription from './../components/NewsletterSubscription'
 import Footer from './../components/Footer'
+import Course from './../components/Course'
+
+const getFeaturedCourse = () =>
+  import(`~/data/courses/a-career-guide-to-software-development.json`).then(
+    (x) => x
+  )
 
 export default {
-  components: { Logo, YoutubeOverlayVideo, Footer, NewsletterSubscription },
+  components: {
+    Logo,
+    YoutubeOverlayVideo,
+    Footer,
+    NewsletterSubscription,
+    Course,
+  },
   methods: {
     onShowIntroVideo() {
       this.showIntroVideo = true
@@ -48,7 +66,11 @@ export default {
     },
   },
   data() {
-    return {showIntroVideo: false};
+    return { showIntroVideo: false }
+  },
+  async asyncData({ params }) {
+    const featuredCourse = await getFeaturedCourse()
+    return { featuredCourse: featuredCourse }
   },
 }
 </script>
