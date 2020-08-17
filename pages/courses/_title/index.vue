@@ -52,7 +52,7 @@
     <div class="mt-10 grid grid-cols-1 sm:grid-cols-2 gap-4">
       <div class="sm:flex sm:flex-col sm:items-center">
         <p class="text-lg sm:text-3xl font-bold font-serif">What you'll learn</p>
-        <div class="mt-1">
+        <div class="mt-2">
           <CheckListItem
             class="mt-2"
             :itemText="lo"
@@ -63,7 +63,7 @@
       </div>
       <div class="mt-6 sm:mt-0 sm:flex sm:flex-col sm:items-center">
         <p class="text-lg sm:text-3xl font-bold font-serif">Prerequisites</p>
-        <div class="mt-1">
+        <div class="mt-2">
           <CheckListItem
             class="mt-2"
             :itemText="preq"
