@@ -6,7 +6,7 @@
   "lastUpdatedOn": "2020-08-03",
   "isFree": true,
   "level": "Beginner",
-  "duration": 3002,
+  "duration": 4584,
   "lessonsCount": 3,
   "bannerImagePath": "/logos/courses/basics-of-web-development.png",
   "learningOutcomes": [
@@ -45,10 +45,10 @@
       "slug": "basics-of-css",
       "title": "Basics of CSS",
       "description": "In this lesson, we will be learning the basics of the CSS and how to make a webpage beautiful.",
-      "duration": 0,
+      "duration": 1582,
       "isFree": true,
       "order": 3,
-      "publishedOn": null
+      "publishedOn": "2020-08-24"
     }
   }
 }
