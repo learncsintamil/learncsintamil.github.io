@@ -8,12 +8,11 @@
 
     <div class="flex flex-col ml-6">
       <div class="flex">
-        <span
+        <nuxt-link
           class="text-base sm:text-xl font-bold cursor-pointer link"
-          target="_blank"
-          @click="showVideo = true"
+          :to="lessonPath"
           v-if="lesson.url"
-        >{{lesson.title}}</span>
+        >{{lesson.title}}</nuxt-link>
         <span v-if="!lesson.url" class="text-base sm:text-xl font-bold">{{lesson.title}}</span>
         <FreeBadge
           v-if="lesson.publishedOn && lesson.isFree"
@@ -34,12 +33,6 @@
       </div>
       <p class="mt-3 text-sm sm:text-base">{{lesson.description}}</p>
     </div>
-    <YoutubeOverlayVideo
-      v-if="lesson.url"
-      :open="showVideo"
-      :src="lesson.url"
-      :onClose="onHideVideo"
-    ></YoutubeOverlayVideo>
   </div>
 </template>
 
@@ -50,6 +43,15 @@ export default {
       type: Object,
       required: true,
     },
+    courseSlug: {
+      type: String,
+      required: true,
+    }
+  },
+  computed: {
+    lessonPath() {
+      return `/courses/${this.courseSlug}/${this.lesson.slug}`;
+    }
   },
   methods: {
     onHideVideo() {

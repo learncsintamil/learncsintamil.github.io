@@ -76,7 +76,7 @@
 
     <p class="text-center mt-10 text-lg sm:text-3xl font-bold font-serif">Lessons</p>
     <div class="flex flex-col items-center">
-      <Lesson :lesson="lesson" :key="lesson.slug" v-for="lesson in course.lessons"></Lesson>
+      <Lesson :lesson="lesson" :key="lesson.slug" v-for="lesson in course.lessons" :courseSlug="course.slug"></Lesson>
     </div>
     <YoutubeOverlayVideo :open="showVideo" :src="course.startUrl" :onClose="onHideVideo"></YoutubeOverlayVideo>
   </div>
