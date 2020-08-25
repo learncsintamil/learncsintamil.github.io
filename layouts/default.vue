@@ -121,7 +121,7 @@ export default {
       return this.$route.name === 'index';
     },
     isCourses() {
-      return this.$route.name === 'courses' || this.$route.name === 'courses-title';
+      return this.$route.name === 'courses' || this.$route.name === 'courses-title' || this.$route.name === 'courses-course-lesson';
     }
   },
   methods: {
@@ -134,7 +134,6 @@ export default {
     }
   },
   data() {
-    console.log(this.$route.name);
     return { showDrawer: false}
   },
   head() {

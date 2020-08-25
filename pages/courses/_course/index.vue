@@ -131,8 +131,7 @@ export default {
   },
   async asyncData({ params }) {
     try {
-      debugger;
-      const course = await getCourse(params.title)
+      const course = await getCourse(params.course)
       return { course: course }
     } catch {
       return { course: null }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1598276219811,
+  "generatedAt": 1598360969221,
   "data": {
     "a-career-guide-to-software-development": {
       "slug": "a-career-guide-to-software-development",
@@ -23,12 +23,12 @@
         "Open Mind",
         "Curiosity"
       ],
-      "startUrl": "https://www.youtube.com/embed/q0MptzyV4DY",
+      "startUrl": "https://www.youtube.com/watch?v=q0MptzyV4DY&list=PLx5yLWqRqsqCBQCj31CUg0bOb6Ofu-JGy",
       "lessons": {
         "first-step-in-software-engineering": {
           "slug": "first-step-in-software-engineering",
           "title": "First step in Software Engineering",
-          "url": "https://www.youtube.com/embed/q0MptzyV4DY",
+          "url": "https://www.youtube.com/watch?v=q0MptzyV4DY&list=PLx5yLWqRqsqCBQCj31CUg0bOb6Ofu-JGy",
           "description": "In this lesson, we'll discuss the answers of three commonly asked questions from people who are getting started in Software Development.",
           "duration": 733,
           "order": 1,
@@ -38,7 +38,7 @@
         "how-i-got-started-in-programming": {
           "slug": "how-i-got-started-in-programming",
           "title": "How I got started in programming",
-          "url": "https://www.youtube.com/embed/Zm4i3P_6Hlc",
+          "url": "https://www.youtube.com/watch?v=Zm4i3P_6Hlc&list=PLx5yLWqRqsqCBQCj31CUg0bOb6Ofu-JGy",
           "description": "Software development is not a magic skill. Anyone with a good problem-solving ability can easily pick it up. In this lesson, I am going to travel down my memory lane and narrate how I got started in programming. A normal person from a small village saw the computer for the very first time in his life and the rest is an interesting story.",
           "duration": 1315,
           "order": 2,
@@ -48,7 +48,7 @@
         "product-company-vs-services-company-how-to-choose": {
           "slug": "product-company-vs-services-company-how-to-choose",
           "title": "Product Company vs Services Company - How to Choose",
-          "url": "https://www.youtube.com/embed/KBAazVOHPes",
+          "url": "https://www.youtube.com/watch?v=KBAazVOHPes&list=PLx5yLWqRqsqCBQCj31CUg0bOb6Ofu-JGy",
           "description": "Every individual is different and we like different things. Depends on our nature and aspirations, we see things in life differently. Hence, the best person is to choose between these is you and you only. Don't put the money first, but happiness and money will follow!",
           "duration": 713,
           "order": 3,
@@ -58,7 +58,7 @@
         "data-structure-competitive-programming-important-to-get-into-good-companies": {
           "slug": "data-structure-competitive-programming-important-to-get-into-good-companies",
           "title": "Data Structure & Competitive Programming - Important to get into good companies?",
-          "url": "https://www.youtube.com/embed/w07rko99vWQ",
+          "url": "https://www.youtube.com/watch?v=w07rko99vWQ&list=PLx5yLWqRqsqCBQCj31CUg0bOb6Ofu-JGy",
           "description": "We need to look at a big picture here. What's our intention behind preparing for an interview or doing competitive programming, is it to get a job? Life is more beyond that. Computer science or software development is not just data structure and algorithms or competitive programming. Don't have a narrow vision :)",
           "duration": 981,
           "order": 4,
@@ -68,7 +68,7 @@
         "entrepreneurship-when-can-i-found-a-startup": {
           "slug": "entrepreneurship-when-can-i-found-a-startup",
           "title": "Entrepreneurship - When can I found a startup?",
-          "url": "https://www.youtube.com/embed/VWNf9nrW9W8",
+          "url": "https://www.youtube.com/watch?v=VWNf9nrW9W8&list=PLx5yLWqRqsqCBQCj31CUg0bOb6Ofu-JGy",
           "description": "Becoming an entrepreneur requires a different mindset and character. To found a startup, you need an idea that you are passionate about and people who are willing to pay you for the benefits they are getting.",
           "duration": 606,
           "order": 5,
@@ -78,7 +78,7 @@
         "can-i-be-successful-in-it-without-a-computer-science-degree": {
           "slug": "can-i-be-successful-in-it-without-a-computer-science-degree",
           "title": "Can I be successful in IT without a Computer Science degree?",
-          "url": "https://www.youtube.com/embed/jfRptcm00iw",
+          "url": "https://www.youtube.com/watch?v=jfRptcm00iw&list=PLx5yLWqRqsqCBQCj31CUg0bOb6Ofu-JGy",
           "description": "To become a skilful car driver, do we need to study mechanical engineering? Programming is just a skill like anything else in the world. If you are someone who is good at problem-solving and willing the put the efforts it requires, the success will follow you!",
           "duration": 277,
           "order": 6,
@@ -88,7 +88,7 @@
         "skills-of-a-candidate-company-expectation": {
           "slug": "skills-of-a-candidate-company-expectation",
           "title": "Skills of a candidate - Company Expectation",
-          "url": "https://www.youtube.com/embed/jS4w0GsUgdM",
+          "url": "https://www.youtube.com/watch?v=jS4w0GsUgdM&list=PLx5yLWqRqsqCBQCj31CUg0bOb6Ofu-JGy",
           "description": "Each company has different requirements and hence they look for different skills in a candidate. But there are some key skills which will make you employable. In this lesson, we'll look at what are they.",
           "duration": 263,
           "order": 7,
@@ -98,7 +98,7 @@
         "how-to-start-a-career-in-the-it-industry": {
           "slug": "how-to-start-a-career-in-the-it-industry",
           "title": "How to start a career in the IT Industry?",
-          "url": "https://www.youtube.com/embed/aYmbNw0B9XQ",
+          "url": "https://www.youtube.com/watch?v=aYmbNw0B9XQ&list=PLx5yLWqRqsqCBQCj31CUg0bOb6Ofu-JGy",
           "description": "Getting a job and building a career are two different things. By following certain proven things, we can easily crack an interview. But building a career requires a lot of dedication and efforts.",
           "duration": 330,
           "order": 8,
@@ -108,7 +108,7 @@
         "after-learning-to-build-web-applications-what's-the-next-step": {
           "slug": "after-learning-to-build-web-applications-what's-the-next-step",
           "title": "After learning to build web applications, what's the next step?",
-          "url": "https://www.youtube.com/embed/1auKjGkSb8Y",
+          "url": "https://www.youtube.com/watch?v=1auKjGkSb8Y&list=PLx5yLWqRqsqCBQCj31CUg0bOb6Ofu-JGy",
           "description": "Learning is a journey without any destination in software development. As a software engineer, we'll be solving problems every single day. After getting better at building end-to-end application, our next step is getting specialised in certain areas which we like a lot.",
           "duration": 270,
           "order": 9,

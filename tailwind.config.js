@@ -17,7 +17,14 @@ module.exports = {
         'brown-dark': '#C9BFB5',
         'brown-light': '#dfd9d3'
       },
+      future: {
+        removeDeprecatedGapUtilities: true,
+      },
       spacing: {
+        '72': '18rem',
+        '84': '21rem',
+        '96': '24rem',
+        '100': '25rem',
         '128': '32rem',
         '240': '60rem'
       },

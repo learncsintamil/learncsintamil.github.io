@@ -11,7 +11,8 @@
   },
   "dependencies": {
     "@nuxt/content": "^1.5.0",
-    "nuxt": "^2.14.0"
+    "nuxt": "^2.14.0",
+    "videojs-youtube": "^2.6.1"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^2.1.0",
