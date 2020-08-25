@@ -23,8 +23,8 @@
         ></CourseSummary>
         <p class="hidden lg:block mt-6">{{course.description}}</p>
         <div class="flex flex-col sm:flex-row sm:justify-between">
-          <button
-            @click="showVideo = true"
+          <nuxt-link
+            :to="firstLessonPath"
             class="mt-4 leading-tight uppercase w-full flex items-center justify-center px-8 py-3 border border-transparent font-medium rounded-md text-white bg-indigo-750 hover:bg-indigo-650 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-2 md:px-5 sm:mr-64 text-base"
           >
             <svg
@@ -39,7 +39,7 @@
               <polygon points="5 3 19 12 5 21 5 3" />
             </svg>
             Start Watching
-          </button>
+          </nuxt-link>
           <div class="mx-2"></div>
           <div class="flex flex-row mt-6 lg:mt-0 self-end lg:ml-64">
             <FacebookIcon :url="facebookShareUrl"></FacebookIcon>
@@ -78,7 +78,6 @@
     <div class="flex flex-col items-center">
       <Lesson :lesson="lesson" :key="lesson.slug" v-for="lesson in course.lessons" :courseSlug="course.slug"></Lesson>
     </div>
-    <YoutubeOverlayVideo :open="showVideo" :src="course.startUrl" :onClose="onHideVideo"></YoutubeOverlayVideo>
   </div>
 </template>
 
@@ -113,21 +112,16 @@ export default {
       ],
     }
   },
-  methods: {
-    onHideVideo() {
-      this.showVideo = false
-    },
-  },
   computed: {
+    firstLessonPath() {
+      return `/courses/${this.course.slug}/${this.course.lessons[Object.keys(this.course.lessons)[0]].slug}`
+    },
     facebookShareUrl() {
       return `https://www.facebook.com/sharer.php?u=https://learncsintamil.com/courses/${this.course.slug}/`
     },
     twitterShareUrl() {
       return `https://twitter.com/intent/tweet?text=I'm watching "${this.course.title}" in @learncsintamil https://learncsintamil.com/courses/${this.course.slug}/`
     },
-  },
-  data() {
-    return { showVideo: false }
   },
   async asyncData({ params }) {
     try {
