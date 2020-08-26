@@ -13,9 +13,10 @@
           <img :src="course.bannerImagePath" class="shadow-md rounded-md h-16 w-16 mx-auto flex-none" />
           <p class="text-lg font-medium ml-4 flex-grow">{{course.title}}</p>
         </div>
-        <div class="h-60 lg:h-72 scrolling-touch overflow-auto bg-white">
+        <div class="h-60 lg:h-72 scrolling-touch overflow-auto bg-white" ref="lessonsContainer">
           <nuxt-link
             :key="courseLesson.slug"
+            :ref="courseLesson.slug"
             v-for="courseLesson in course.lessons"
             class="px-4 py-4 border-b border-brown-light flex items-center"
             :to="lessonUrl(courseLesson.slug)"
@@ -80,21 +81,14 @@ export default {
       sources: [{ type: 'video/youtube', src: this.lesson.url }],
     }
     if (this.$refs.videoPlayer) {
-      this.player = videojs(this.$refs.videoPlayer, options)
-      this.player.on('play', () => (this.isPlaying = true))
+      this.player = videojs(this.$refs.videoPlayer, options);
     }
+    this.$refs.lessonsContainer.scrollTop = this.$refs[this.lesson.slug][0].$el.scrollHeight * (this.lesson.order - 2);
   },
-  // destroyed() {
-  //   try {
-  //     this.player.dispose();
-  //   } catch(e) {
-  //     // TODO: figure out a fix for this!
-  //   }
-  // },
+
   data() {
     return {
-      player: null,
-      isPlaying: false,
+      player: null
     }
   },
   async asyncData({ params }) {
