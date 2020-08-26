@@ -75,6 +75,19 @@ export default {
       return `/courses/${this.course.slug}/${lessonSlug}`
     },
   },
+  head() {
+    return {
+      title: this.lesson.title,
+      meta: [
+        { hid: 'og_type', name: 'og:type', content: 'video.other' },
+        { hid: 'og_url', name: 'og:url', content: 'https://www.learncsintamil.com/courses/' + this.course.slug + "/"},
+        { hid: 'og_title', name: 'og:title', content: this.lesson.title },
+        { hid: 'og_description', name: 'og:description', content: this.lesson.description },
+        { hid: 'description', name: 'description', content: this.lesson.description },
+        { hid: 'og_image', name: 'og:image', content: 'https://www.learncsintamil.com' + this.course.bannerImagePath },
+      ],
+    }
+  },
   mounted() {
     const options = {
       techOrder: ['youtube'],
