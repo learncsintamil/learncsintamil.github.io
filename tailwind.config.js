@@ -17,9 +17,6 @@ module.exports = {
         'brown-dark': '#C9BFB5',
         'brown-light': '#dfd9d3'
       },
-      future: {
-        removeDeprecatedGapUtilities: true,
-      },
       spacing: {
         '72': '18rem',
         '84': '21rem',
@@ -44,6 +41,9 @@ module.exports = {
     }),
     require("autoprefixer"),
   ],
+  future: {
+    removeDeprecatedGapUtilities: true,
+  },
   purge: {
     // Learn more on https://tailwindcss.com/docs/controlling-file-size/#removing-unused-css
     enabled: process.env.NODE_ENV === 'production',
