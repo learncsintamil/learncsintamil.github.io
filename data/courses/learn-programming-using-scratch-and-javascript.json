@@ -1,0 +1,35 @@
+{
+  "slug": "learn-programming-using-scratch-and-javascript",
+  "title": "Learn Programming Using Scratch & Javascript",
+  "description": "Programming is joy. Like learning a musical instrument, you will have a lot of fun and unforgettable moments. Anyone with good logical thinking ability and problem-solving skill can learn and master it. The objective of this course is to help you in getting started with programming in the right away.",
+  "publishedOn": "2020-09-07",
+  "lastUpdatedOn": "2020-09-07",
+  "isFree": true,
+  "level": "Beginner",
+  "duration": 647,
+  "lessonsCount": 1,
+  "bannerImagePath": "/logos/courses/learn-programming-using-scratch-and-javascript.png",
+  "learningOutcomes": [
+    "What is Programming?",
+    "Computational Thinking",
+    "Three ingredients of programs",
+    "Basics of Scratch",
+    "Basics of Javascript"
+  ],
+  "prerequisites": [
+    "Basic computer operating skills"
+  ],
+  "startUrl": "https://www.youtube.com/watch?v=HqY8f5xdwXc&list=PLx5yLWqRqsqBSc7ahDpqciwX5HaueBhek",
+  "lessons": {
+    "introduction": {
+      "slug": "introduction",
+      "title": "Introduction",
+      "url": "https://www.youtube.com/watch?v=HqY8f5xdwXc&list=PLx5yLWqRqsqBSc7ahDpqciwX5HaueBhek",
+      "description": "In this lesson, we'll be learning what programming is and the roles of programming languages in writing a program.",
+      "duration": 647,
+      "order" : 1,
+      "isFree": true,
+      "publishedOn": "2020-09-07"
+    }
+  }
+}

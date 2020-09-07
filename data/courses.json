@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1598360969221,
+  "generatedAt": 1599470160582,
   "data": {
     "a-career-guide-to-software-development": {
       "slug": "a-career-guide-to-software-development",
@@ -138,12 +138,12 @@
       "prerequisites": [
         "Basic computer operating skills"
       ],
-      "startUrl": "https://www.youtube.com/embed/YbjAMdHMhw4",
+      "startUrl": "https://www.youtube.com/watch?v=YbjAMdHMhw4&list=PLx5yLWqRqsqCOLsTbaHiD1p096Ynnttuy",
       "lessons": {
         "mental-model": {
           "slug": "mental-model",
           "title": "Mental Model",
-          "url": "https://www.youtube.com/embed/YbjAMdHMhw4",
+          "url": "https://www.youtube.com/watch?v=YbjAMdHMhw4&list=PLx5yLWqRqsqCOLsTbaHiD1p096Ynnttuy",
           "description": "In this lesson, we will be learning about a mental model which will help you to learn website development efficiently.",
           "duration": 453,
           "order": 1,
@@ -153,7 +153,7 @@
         "developing-and-publishing-your-first-website": {
           "slug": "developing-and-publishing-your-first-website",
           "title": "Developing And Publishing Your First Website",
-          "url": "https://www.youtube.com/embed/HGjIaarRVi0",
+          "url": "https://www.youtube.com/watch?v=HGjIaarRVi0&list=PLx5yLWqRqsqCOLsTbaHiD1p096Ynnttuy",
           "description": "In this lesson, we will be learning the basics of the HTML syntax and how to create a simple webpage using it. Then we'll be publishing this website on the Internet using Netlify.",
           "duration": 2549,
           "order": 2,
@@ -163,12 +163,47 @@
         "basics-of-css": {
           "slug": "basics-of-css",
           "title": "Basics of CSS",
-          "url": "https://www.youtube.com/embed/YwPrAnh65Wk",
+          "url": "https://www.youtube.com/watch?v=YwPrAnh65Wk&list=PLx5yLWqRqsqCOLsTbaHiD1p096Ynnttuy",
           "description": "In this lesson, we will be learning the basics of the CSS and how to make a webpage beautiful.",
           "duration": 1582,
           "isFree": true,
           "order": 3,
           "publishedOn": "2020-08-24"
+        }
+      }
+    },
+    "learn-programming-using-scratch-and-javascript": {
+      "slug": "learn-programming-using-scratch-and-javascript",
+      "title": "Learn Programming Using Scratch & Javascript",
+      "description": "Programming is joy. Like learning a musical instrument, you will have a lot of fun and unforgettable moments. Anyone with good logical thinking ability and problem-solving skill can learn and master it. The objective of this course is to help you in getting started with programming in the right away.",
+      "publishedOn": "2020-09-07",
+      "lastUpdatedOn": "2020-09-07",
+      "isFree": true,
+      "level": "Beginner",
+      "duration": 647,
+      "lessonsCount": 1,
+      "bannerImagePath": "/logos/courses/learn-programming-using-scratch-and-javascript.png",
+      "learningOutcomes": [
+        "What is Programming?",
+        "Computational Thinking",
+        "Three ingredients of programs",
+        "Basics of Scratch",
+        "Basics of Javascript"
+      ],
+      "prerequisites": [
+        "Basic computer operating skills"
+      ],
+      "startUrl": "https://www.youtube.com/watch?v=HqY8f5xdwXc&list=PLx5yLWqRqsqBSc7ahDpqciwX5HaueBhek",
+      "lessons": {
+        "introduction": {
+          "slug": "introduction",
+          "title": "Introduction",
+          "url": "https://www.youtube.com/watch?v=HqY8f5xdwXc&list=PLx5yLWqRqsqBSc7ahDpqciwX5HaueBhek",
+          "description": "In this lesson, we'll be learning what programming is and the roles of programming languages in writing a program.",
+          "duration": 647,
+          "order": 1,
+          "isFree": true,
+          "publishedOn": "2020-09-07"
         }
       }
     }

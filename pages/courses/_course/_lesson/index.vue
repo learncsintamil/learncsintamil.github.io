@@ -51,7 +51,7 @@
       </div>
     </div>
     <div class="mx-auto lg:max-w-3xl mt-6">
-      <p class="text-lg sm:text-3xl font-bold font-serif">{{lesson.order}}. {{lesson.title}}</p>
+      <p class="text-lg sm:text-3xl font-bold font-serif">{{lesson.title}}</p>
       <p class="leading-7 sm:text-lg mt-2">{{lesson.description}}</p>
     </div>
   </div>
@@ -91,6 +91,7 @@ export default {
   mounted() {
     const options = {
       techOrder: ['youtube'],
+      playbackRates: [1, 1.5, 2],
       sources: [{ type: 'video/youtube', src: this.lesson.url }],
     }
     if (this.$refs.videoPlayer) {

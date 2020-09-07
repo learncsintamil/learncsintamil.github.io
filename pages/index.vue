@@ -7,11 +7,11 @@
       <main class="px-4 sm:px-8 mt-6 mx-auto max-w-screen-xl sm:mt-12 md:mt-16 lg:mt-20 xl:mt-28">
         <div class="text-center">
           <h2
-            class="font-serif text-3xl sm:text-5xl leading-10 font-extrabold text-gray-850 sm:leading-none"
-          >Your software development coach</h2>
+            class="font-serif text-3xl sm:text-5xl leading-10 font-black text-gray-850 sm:leading-none"
+          >Your Software Development Coach</h2>
           <p
-            class="mt-3 md:mt-6 mx-auto max-w-xl text-gray-850 text-xl sm:text-2xl"
-          >Everything you need to build a successful career and turn your ideas into software products.</p>
+            class="mt-3 md:mt-6 mx-auto max-w-2xl text-gray-850 text-xl sm:text-2xl"
+          >Everything you need to build a successful career in IT.</p>
           <NewsletterSubscription class="mt-5 max-w-xl mx-auto sm:flex sm:justify-center md:mt-8"></NewsletterSubscription>
           <div class="mt-6 sm:mt-4">
             <a
