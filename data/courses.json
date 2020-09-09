@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1599470160582,
+  "generatedAt": 1599629157246,
   "data": {
     "a-career-guide-to-software-development": {
       "slug": "a-career-guide-to-software-development",
@@ -180,7 +180,7 @@
       "lastUpdatedOn": "2020-09-07",
       "isFree": true,
       "level": "Beginner",
-      "duration": 647,
+      "duration": 1471,
       "lessonsCount": 1,
       "bannerImagePath": "/logos/courses/learn-programming-using-scratch-and-javascript.png",
       "learningOutcomes": [
@@ -204,6 +204,16 @@
           "order": 1,
           "isFree": true,
           "publishedOn": "2020-09-07"
+        },
+        "our-first-program": {
+          "slug": "our-first-program",
+          "title": "Our First Program",
+          "url": "https://www.youtube.com/watch?v=v8iRw0YFLIQ&list=PLx5yLWqRqsqBSc7ahDpqciwX5HaueBhek",
+          "description": "In this lesson, we'll be learning how to write a simple program using Scratch. Then we'll understand how it ran and the differences between high-level & low-level programming languages.",
+          "duration": 824,
+          "order": 2,
+          "isFree": true,
+          "publishedOn": "2020-09-09"
         }
       }
     }
