@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1599629157246,
+  "generatedAt": 1599745292278,
   "data": {
     "a-career-guide-to-software-development": {
       "slug": "a-career-guide-to-software-development",
@@ -180,8 +180,8 @@
       "lastUpdatedOn": "2020-09-07",
       "isFree": true,
       "level": "Beginner",
-      "duration": 1471,
-      "lessonsCount": 1,
+      "duration": 2352,
+      "lessonsCount": 3,
       "bannerImagePath": "/logos/courses/learn-programming-using-scratch-and-javascript.png",
       "learningOutcomes": [
         "What is Programming?",
@@ -214,6 +214,16 @@
           "order": 2,
           "isFree": true,
           "publishedOn": "2020-09-09"
+        },
+        "hello-world-in-javascript": {
+          "slug": "hello-world-in-javascript",
+          "title": "Hello World in Javascript",
+          "url": "https://www.youtube.com/watch?v=BZXxjvL2oWc&list=PLx5yLWqRqsqBSc7ahDpqciwX5HaueBhek",
+          "description": "In this lesson, we'll be installing node.js & VS Code and learning how to write a simple program using javascript. We'll also understand the similarities between scratch and javascript.",
+          "duration": 881,
+          "order": 3,
+          "isFree": true,
+          "publishedOn": "2020-09-10"
         }
       }
     }
