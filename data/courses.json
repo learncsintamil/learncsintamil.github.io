@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1599745292278,
+  "generatedAt": 1600272869373,
   "data": {
     "a-career-guide-to-software-development": {
       "slug": "a-career-guide-to-software-development",
@@ -33,7 +33,8 @@
           "duration": 733,
           "order": 1,
           "isFree": true,
-          "publishedOn": "2020-07-27"
+          "publishedOn": "2020-07-27",
+          "nextLessonSlug": "how-i-got-started-in-programming"
         },
         "how-i-got-started-in-programming": {
           "slug": "how-i-got-started-in-programming",
@@ -43,7 +44,8 @@
           "duration": 1315,
           "order": 2,
           "isFree": true,
-          "publishedOn": "2020-08-15"
+          "publishedOn": "2020-08-15",
+          "nextLessonSlug": "product-company-vs-services-company-how-to-choose"
         },
         "product-company-vs-services-company-how-to-choose": {
           "slug": "product-company-vs-services-company-how-to-choose",
@@ -53,7 +55,8 @@
           "duration": 713,
           "order": 3,
           "isFree": true,
-          "publishedOn": "2020-08-15"
+          "publishedOn": "2020-08-15",
+          "nextLessonSlug": "data-structure-competitive-programming-important-to-get-into-good-companies"
         },
         "data-structure-competitive-programming-important-to-get-into-good-companies": {
           "slug": "data-structure-competitive-programming-important-to-get-into-good-companies",
@@ -63,7 +66,8 @@
           "duration": 981,
           "order": 4,
           "isFree": true,
-          "publishedOn": "2020-08-15"
+          "publishedOn": "2020-08-15",
+          "nextLessonSlug": "entrepreneurship-when-can-i-found-a-startup"
         },
         "entrepreneurship-when-can-i-found-a-startup": {
           "slug": "entrepreneurship-when-can-i-found-a-startup",
@@ -73,7 +77,8 @@
           "duration": 606,
           "order": 5,
           "isFree": true,
-          "publishedOn": "2020-08-16"
+          "publishedOn": "2020-08-16",
+          "nextLessonSlug": "can-i-be-successful-in-it-without-a-computer-science-degree"
         },
         "can-i-be-successful-in-it-without-a-computer-science-degree": {
           "slug": "can-i-be-successful-in-it-without-a-computer-science-degree",
@@ -83,7 +88,8 @@
           "duration": 277,
           "order": 6,
           "isFree": true,
-          "publishedOn": "2020-08-16"
+          "publishedOn": "2020-08-16",
+          "nextLessonSlug": "skills-of-a-candidate-company-expectation"
         },
         "skills-of-a-candidate-company-expectation": {
           "slug": "skills-of-a-candidate-company-expectation",
@@ -93,7 +99,8 @@
           "duration": 263,
           "order": 7,
           "isFree": true,
-          "publishedOn": "2020-08-16"
+          "publishedOn": "2020-08-16",
+          "nextLessonSlug": "how-to-start-a-career-in-the-it-industry"
         },
         "how-to-start-a-career-in-the-it-industry": {
           "slug": "how-to-start-a-career-in-the-it-industry",
@@ -103,7 +110,8 @@
           "duration": 330,
           "order": 8,
           "isFree": true,
-          "publishedOn": "2020-08-16"
+          "publishedOn": "2020-08-16",
+          "nextLessonSlug": "after-learning-to-build-web-applications-what's-the-next-step"
         },
         "after-learning-to-build-web-applications-what's-the-next-step": {
           "slug": "after-learning-to-build-web-applications-what's-the-next-step",
@@ -148,7 +156,8 @@
           "duration": 453,
           "order": 1,
           "isFree": true,
-          "publishedOn": "2020-07-31"
+          "publishedOn": "2020-07-31",
+          "nextLessonSlug": "developing-and-publishing-your-first-website"
         },
         "developing-and-publishing-your-first-website": {
           "slug": "developing-and-publishing-your-first-website",
@@ -158,7 +167,8 @@
           "duration": 2549,
           "order": 2,
           "isFree": true,
-          "publishedOn": "2020-08-03"
+          "publishedOn": "2020-08-03",
+          "nextLessonSlug": "basics-of-css"
         },
         "basics-of-css": {
           "slug": "basics-of-css",
@@ -203,7 +213,8 @@
           "duration": 647,
           "order": 1,
           "isFree": true,
-          "publishedOn": "2020-09-07"
+          "publishedOn": "2020-09-07",
+          "nextLessonSlug": "our-first-program"
         },
         "our-first-program": {
           "slug": "our-first-program",
@@ -213,7 +224,8 @@
           "duration": 824,
           "order": 2,
           "isFree": true,
-          "publishedOn": "2020-09-09"
+          "publishedOn": "2020-09-09",
+          "nextLessonSlug": "hello-world-in-javascript"
         },
         "hello-world-in-javascript": {
           "slug": "hello-world-in-javascript",

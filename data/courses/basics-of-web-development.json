@@ -29,7 +29,8 @@
       "duration": 453,
       "order" : 1,
       "isFree": true,
-      "publishedOn": "2020-07-31"
+      "publishedOn": "2020-07-31",
+      "nextLessonSlug": "developing-and-publishing-your-first-website"
     },
     "developing-and-publishing-your-first-website": {
       "slug": "developing-and-publishing-your-first-website",
@@ -39,7 +40,8 @@
       "duration": 2549,
       "order": 2,
       "isFree": true,
-      "publishedOn": "2020-08-03"
+      "publishedOn": "2020-08-03",
+      "nextLessonSlug": "basics-of-css"
     },
     "basics-of-css": {
       "slug": "basics-of-css",

@@ -29,7 +29,8 @@
       "duration": 647,
       "order" : 1,
       "isFree": true,
-      "publishedOn": "2020-09-07"
+      "publishedOn": "2020-09-07",
+      "nextLessonSlug": "our-first-program"
     },
     "our-first-program": {
       "slug": "our-first-program",
@@ -39,7 +40,8 @@
       "duration": 824,
       "order" : 2,
       "isFree": true,
-      "publishedOn": "2020-09-09"
+      "publishedOn": "2020-09-09",
+      "nextLessonSlug": "hello-world-in-javascript"
     },
     "hello-world-in-javascript": {
       "slug": "hello-world-in-javascript",

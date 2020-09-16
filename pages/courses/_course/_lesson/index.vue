@@ -69,6 +69,9 @@ export default {
     videojsDataSetup() {
       return `{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "${this.lesson.url}"}] }`
     },
+    nextLessonUrl() {
+      return this.lesson.nextLessonSlug ? this.lessonUrl(this.lesson.nextLessonSlug) + "?autoplay=true" : null;
+    }
   },
   methods: {
     lessonUrl(lessonSlug) {
@@ -103,6 +106,13 @@ export default {
           });
         }, false);
       }
+      const self = this;
+      this.player.on('ended', function() {
+        const nextUrl = self.nextLessonUrl;
+        if (nextUrl) {
+          self.$router.replace({ path: nextUrl });
+        }
+      });
     }
     this.$refs.lessonsContainer.scrollTop = this.$refs[this.lesson.slug][0].$el.scrollHeight * (this.lesson.order - 2);
   },
