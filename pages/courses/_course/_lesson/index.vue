@@ -96,6 +96,13 @@ export default {
     }
     if (this.$refs.videoPlayer) {
       this.player = videojs(this.$refs.videoPlayer, options);
+      if (this.$route.query.autoplay == 'true') {
+        this.player.ready(() => {
+          this.$nextTick(() => {
+              this.player.play();
+          });
+        }, false);
+      }
     }
     this.$refs.lessonsContainer.scrollTop = this.$refs[this.lesson.slug][0].$el.scrollHeight * (this.lesson.order - 2);
   },

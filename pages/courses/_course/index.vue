@@ -114,7 +114,7 @@ export default {
   },
   computed: {
     firstLessonPath() {
-      return `/courses/${this.course.slug}/${this.course.lessons[Object.keys(this.course.lessons)[0]].slug}`
+      return `/courses/${this.course.slug}/${this.course.lessons[Object.keys(this.course.lessons)[0]].slug}?autoplay=true`
     },
     facebookShareUrl() {
       return `https://www.facebook.com/sharer.php?u=https://learncsintamil.com/courses/${this.course.slug}/`
