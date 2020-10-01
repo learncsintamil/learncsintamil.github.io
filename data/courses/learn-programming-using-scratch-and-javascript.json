@@ -6,8 +6,8 @@
   "lastUpdatedOn": "2020-09-07",
   "isFree": true,
   "level": "Beginner",
-  "duration": 4066,
-  "lessonsCount": 4,
+  "duration": 5866,
+  "lessonsCount": 5,
   "bannerImagePath": "/logos/courses/learn-programming-using-scratch-and-javascript.png",
   "learningOutcomes": [
     "What is Programming?",
@@ -63,6 +63,16 @@
       "order" : 4,
       "isFree": true,
       "publishedOn": "2020-09-10"
+    },
+    "defining-a-function": {
+      "slug": "defining-a-function",
+      "title": "Defining a function",
+      "url": "https://www.youtube.com/watch?v=SX7MLq7y4JA&list=PLx5yLWqRqsqBSc7ahDpqciwX5HaueBhek",
+      "description": "In this lesson, we are going to learn two important concepts in programming. How to use functions created by someone else and how to write our own function to solve our requirements.",
+      "duration": 1800,
+      "order" : 5,
+      "isFree": true,
+      "publishedOn": "2020-10-01"
     }
   }
 }
