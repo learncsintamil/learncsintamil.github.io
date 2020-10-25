@@ -79,6 +79,14 @@ export default {
   ** See https://nuxtjs.org/api/configuration-build/
   */
   build: {
+    postcss: {
+      preset: {
+        features: {
+          // Fixes: https://github.com/tailwindcss/tailwindcss/issues/1190#issuecomment-546621554
+          "focus-within-pseudo-class": false
+        }
+      }
+    }
   },
 
   watch: [
