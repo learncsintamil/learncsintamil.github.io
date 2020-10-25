@@ -4,7 +4,7 @@
       <div class="lg:col-span-2 rounded-md shadow-md">
         <video
           controls
-          class="h-72 lg:h-100 w-full video-js vjs-default-skin vjs-big-play-centered shadow-md"
+          class="h-72 lg:h-128 w-full video-js vjs-default-skin vjs-big-play-centered shadow-md"
           ref="videoPlayer"
         ></video>
       </div>
