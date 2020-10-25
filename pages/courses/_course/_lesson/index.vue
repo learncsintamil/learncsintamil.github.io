@@ -13,7 +13,7 @@
           <img :src="course.bannerImagePath" class="shadow-md rounded-md h-16 w-16 mx-auto flex-none" />
           <p class="text-lg font-medium ml-4 flex-grow">{{course.title}}</p>
         </div>
-        <div class="h-60 lg:h-72 scrolling-touch overflow-auto bg-white" ref="lessonsContainer">
+        <div class="h-60 lg:h-128 scrolling-touch overflow-auto bg-white" ref="lessonsContainer">
           <nuxt-link
             :key="courseLesson.slug"
             :ref="courseLesson.slug"
