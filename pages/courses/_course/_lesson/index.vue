@@ -1,6 +1,6 @@
 <template>
   <div class="pb-24 mt-6 sm:mt-10 max-w-screen-lg mx-auto">
-    <div class="grid grid-cols-1 lg:grid-cols-3 lg:gap-2">
+    <div class="grid grid-cols-1 lg:grid-cols-3 lg:gap-1">
       <div class="lg:col-span-2 rounded-md shadow-md">
         <video
           controls
@@ -8,12 +8,12 @@
           ref="videoPlayer"
         ></video>
       </div>
-      <div class="lg:col-span-1 rounded-md bg-white mt-2 lg:mt-0 shadow-xl">
-        <div class="flex bg-brown-dark px-4 py-4 rounded-t-md shadow-inner">
+      <div class="lg:col-span-1 bg-white mt-2 lg:mt-0 shadow-xl">
+        <div class="flex bg-brown-dark px-4 py-4 shadow-inner">
           <img :src="course.bannerImagePath" class="shadow-md rounded-md h-16 w-16 mx-auto flex-none" />
           <p class="text-lg font-medium ml-4 flex-grow">{{course.title}}</p>
         </div>
-        <div class="h-60 lg:h-128 scrolling-touch overflow-auto bg-white" ref="lessonsContainer">
+        <div class="h-60 lg:h-100 scrolling-touch overflow-auto bg-white" ref="lessonsContainer">
           <nuxt-link
             :key="courseLesson.slug"
             :ref="courseLesson.slug"
