@@ -7,7 +7,7 @@
   "isFree": true,
   "level": "Beginner",
   "duration": 5866,
-  "lessonsCount": 5,
+  "lessonsCount": 6,
   "bannerImagePath": "/logos/courses/learn-programming-using-scratch-and-javascript.png",
   "learningOutcomes": [
     "What is Programming?",
@@ -73,6 +73,16 @@
       "order" : 5,
       "isFree": true,
       "publishedOn": "2020-10-01"
+    },
+    "single-responsibility-principle": {
+      "slug": "single-responsibility-principle",
+      "title": "Single Responsibility Principle",
+      "url": "https://www.youtube.com/watch?v=2yqryCZ-rFo&list=PLx5yLWqRqsqBSc7ahDpqciwX5HaueBhek",
+      "description": "In this lesson, we are going to learn one of the most important principles in programming, Single Responsibility Principle. We'll be revisiting the functions that we wrote in the last lesson and update them to return a value instead of printing the calculated result.",
+      "duration": 1077,
+      "order" : 6,
+      "isFree": true,
+      "publishedOn": "2020-10-26"
     }
   }
 }
