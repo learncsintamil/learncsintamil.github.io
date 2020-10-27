@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1603730961365,
+  "generatedAt": 1603811282036,
   "data": {
     "a-career-guide-to-software-development": {
       "slug": "a-career-guide-to-software-development",
@@ -190,7 +190,7 @@
       "lastUpdatedOn": "2020-09-07",
       "isFree": true,
       "level": "Beginner",
-      "duration": 5866,
+      "duration": 6943,
       "lessonsCount": 6,
       "bannerImagePath": "/logos/courses/learn-programming-using-scratch-and-javascript.png",
       "learningOutcomes": [
