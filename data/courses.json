@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1603811282036,
+  "generatedAt": 1604496055910,
   "data": {
     "a-career-guide-to-software-development": {
       "slug": "a-career-guide-to-software-development",
@@ -190,8 +190,8 @@
       "lastUpdatedOn": "2020-09-07",
       "isFree": true,
       "level": "Beginner",
-      "duration": 6943,
-      "lessonsCount": 6,
+      "duration": 7577,
+      "lessonsCount": 7,
       "bannerImagePath": "/logos/courses/learn-programming-using-scratch-and-javascript.png",
       "learningOutcomes": [
         "What is Programming?",
@@ -267,6 +267,16 @@
           "order": 6,
           "isFree": true,
           "publishedOn": "2020-10-26"
+        },
+        "saving-intermediate-result": {
+          "slug": "saving-intermediate-result",
+          "title": "Saving Intermediate Result",
+          "url": "https://www.youtube.com/watch?v=Kv2vvyNJ4UI&list=PLx5yLWqRqsqBSc7ahDpqciwX5HaueBhek",
+          "description": "Typically the functions that we define in a real-world application will be having multiple steps for calculating the final result. In this lesson, we'll be learning how to write a multi-step function in Javascript and save the intermediate results using variables.",
+          "duration": 634,
+          "order": 7,
+          "isFree": true,
+          "publishedOn": "2020-11-04"
         }
       }
     }
