@@ -6,8 +6,8 @@
   "lastUpdatedOn": "2020-09-07",
   "isFree": true,
   "level": "Beginner",
-  "duration": 7646,
-  "lessonsCount": 7,
+  "duration": 8528,
+  "lessonsCount": 8,
   "bannerImagePath": "/logos/courses/learn-programming-using-scratch-and-javascript.png",
   "learningOutcomes": [
     "What is Programming?",
@@ -93,6 +93,16 @@
       "order" : 7,
       "isFree": true,
       "publishedOn": "2020-11-04"
+    },
+    "feedback-loop": {
+      "slug": "feedback-loop",
+      "title": "Feedback Loop",
+      "url": "https://www.youtube.com/watch?v=8LPwXi6eyxA&list=PLx5yLWqRqsqBSc7ahDpqciwX5HaueBhek",
+      "description": "A typical programming activity involves two activities, exploration and trial-and-error. In this lesson, we'll learn about how we can be more productive while performing these activities using a REPL.",
+      "duration": 882,
+      "order" : 8,
+      "isFree": true,
+      "publishedOn": "2020-11-15"
     }
   }
 }
