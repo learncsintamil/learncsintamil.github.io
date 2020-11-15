@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1604496055910,
+  "generatedAt": 1605424036980,
   "data": {
     "a-career-guide-to-software-development": {
       "slug": "a-career-guide-to-software-development",
@@ -190,7 +190,7 @@
       "lastUpdatedOn": "2020-09-07",
       "isFree": true,
       "level": "Beginner",
-      "duration": 7577,
+      "duration": 7646,
       "lessonsCount": 7,
       "bannerImagePath": "/logos/courses/learn-programming-using-scratch-and-javascript.png",
       "learningOutcomes": [
@@ -241,9 +241,9 @@
         "data-and-operators": {
           "slug": "data-and-operators",
           "title": "Data & Operators",
-          "url": "https://www.youtube.com/watch?v=5yraDhshilc&list=PLx5yLWqRqsqBSc7ahDpqciwX5HaueBhek",
+          "url": "https://youtu.be/H9yTfZI5k-w",
           "description": "We all know how to do calculations using a calculator. Do you know, you can use this same knowledge to do calculations in Programming. In this lesson, we'll be learning about different types of data & how to solve basic mathematical equations in both Scratch & Javascript.",
-          "duration": 1714,
+          "duration": 1783,
           "order": 4,
           "isFree": true,
           "publishedOn": "2020-09-10"
