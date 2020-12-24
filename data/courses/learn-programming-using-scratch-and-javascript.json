@@ -6,8 +6,8 @@
   "lastUpdatedOn": "2020-09-07",
   "isFree": true,
   "level": "Beginner",
-  "duration": 8528,
-  "lessonsCount": 8,
+  "duration": 10321,
+  "lessonsCount": 9,
   "bannerImagePath": "/logos/courses/learn-programming-using-scratch-and-javascript.png",
   "learningOutcomes": [
     "What is Programming?",
@@ -103,6 +103,17 @@
       "order" : 8,
       "isFree": true,
       "publishedOn": "2020-11-15"
+    },
+    "decision-making": {
+      "slug": "decision-making",
+      "title": "Decision Making",
+      "url": "https://www.youtube.com/watch?v=4Xp7FMH8HHQ&list=PLx5yLWqRqsqBSc7ahDpqciwX5HaueBhek",
+      "description": "Decision Making is one of the crucial steps in real-world programming. In this lesson, we are going to learn how to communicate decisions in programming. Then we'll apply it in three different real-life scenarios.",
+      "duration": 1793,
+      "order": 9,
+      "isFree": true,
+      "publishedOn": "2020-12-24"
     }
+    
   }
 }
