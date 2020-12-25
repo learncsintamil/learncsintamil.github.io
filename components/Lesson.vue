@@ -9,15 +9,11 @@
     <div class="flex flex-col ml-6">
       <div class="flex">
         <nuxt-link
-          class="text-base sm:text-xl font-bold cursor-pointer link"
+          class="text-base sm:text-xl font-bold cursor-pointer link font-serif"
           :to="lessonPath"
           v-if="lesson.url"
         >{{lesson.title}}</nuxt-link>
         <span v-if="!lesson.url" class="text-base sm:text-xl font-bold">{{lesson.title}}</span>
-        <FreeBadge
-          v-if="lesson.publishedOn && lesson.isFree"
-          class="mt-1 sm:mt-0 ml-2 self-start"
-        ></FreeBadge>
         <ComingSoonBadge v-if="!lesson.publishedOn" class="mt-1 sm:mt-0 ml-2 self-start"></ComingSoonBadge>
       </div>
       <div class="flex items-center flex-row text-gray-600 pt-1" v-if="lesson.publishedOn">

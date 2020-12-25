@@ -42,10 +42,6 @@
                 <p class="text-xs ml-1">{{courseLesson.duration | duration}}</p>
               </div>
             </div>
-            <FreeBadge
-              v-if="courseLesson.publishedOn && courseLesson.isFree"
-              class="mt-1 sm:mt-0 ml-2 flex-none"
-            ></FreeBadge>
           </nuxt-link>
         </div>
       </div>

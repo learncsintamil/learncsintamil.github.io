@@ -10,7 +10,6 @@
           <p
             class="text-center sm:text-left text-gray-850 text-xl sm:text-4xl font-extrabold mt-3 sm:mt-0"
           >Basics of web development</p>
-          <FreeBadge></FreeBadge>
         </div>
         <div class="mt-2 sm:mt-1 flex items-center self-center sm:self-start">
           <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-5 h-5">
@@ -108,7 +107,6 @@
               class="text-base sm:text-xl font-bold text-indigo-650 hover:text-gray-850 hover:underline"
               href="#"
             >Let's Build a Memory Game</a>
-            <FreeBadge></FreeBadge>
           </div>
           <div class="mt-1 flex items-center flex-row text-gray-600">
             <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-3 h-3">

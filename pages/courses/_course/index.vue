@@ -13,7 +13,6 @@
           <p
             class="font-serif text-center sm:text-left text-gray-850 text-xl sm:text-4xl font-extrabold mt-3 sm:mt-0"
           >{{course.title}}</p>
-          <FreeBadge v-if="course.isFree" class="mt-1 sm:mt-0 sm:ml-2 self-center sm:self-start"></FreeBadge>
         </div>
         <CourseSummary
           class="mt-2 sm:mt-1 self-center sm:self-start"
