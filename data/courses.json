@@ -1,10 +1,10 @@
 {
-  "generatedAt": 1605431011016,
+  "generatedAt": 1608871910267,
   "data": {
     "a-career-guide-to-software-development": {
       "slug": "a-career-guide-to-software-development",
       "title": "A Career Guide to Software Development",
-      "description": "Software development is an excellent skill which is changing a lot of people's lives for the better. Anybody with the right attitude towards learning and problem-solving ability can master this art. This course aims to be a guiding light for the people who want to build a successful career in the IT industry.",
+      "description": "Software development is an excellent skill that is changing a lot of people's lives for the better. Anybody with the right attitude towards learning and problem-solving ability can master this art. This course aims to guide people who want to build a successful career in the IT industry.",
       "publishedOn": "2020-08-16",
       "lastUpdatedOn": "2020-08-16",
       "isFree": true,
@@ -29,7 +29,7 @@
           "slug": "first-step-in-software-engineering",
           "title": "First step in Software Engineering",
           "url": "https://www.youtube.com/watch?v=q0MptzyV4DY&list=PLx5yLWqRqsqCBQCj31CUg0bOb6Ofu-JGy",
-          "description": "In this lesson, we'll discuss the answers of three commonly asked questions from people who are getting started in Software Development.",
+          "description": "In this lesson, we'll discuss the answers to three commonly asked questions from people who are getting started in Software Development.",
           "duration": 733,
           "order": 1,
           "isFree": true,
@@ -51,7 +51,7 @@
           "slug": "product-company-vs-services-company-how-to-choose",
           "title": "Product Company vs Services Company - How to Choose",
           "url": "https://www.youtube.com/watch?v=KBAazVOHPes&list=PLx5yLWqRqsqCBQCj31CUg0bOb6Ofu-JGy",
-          "description": "Every individual is different and we like different things. Depends on our nature and aspirations, we see things in life differently. Hence, the best person is to choose between these is you and you only. Don't put the money first, but happiness and money will follow!",
+          "description": "Every individual is different, and we like different things. Depends on our nature and aspirations, we see things in life differently. Hence, the best person is to choose between these is you and you only. Don't put the money first, but happiness and money will follow!",
           "duration": 713,
           "order": 3,
           "isFree": true,
@@ -84,7 +84,7 @@
           "slug": "can-i-be-successful-in-it-without-a-computer-science-degree",
           "title": "Can I be successful in IT without a Computer Science degree?",
           "url": "https://www.youtube.com/watch?v=jfRptcm00iw&list=PLx5yLWqRqsqCBQCj31CUg0bOb6Ofu-JGy",
-          "description": "To become a skilful car driver, do we need to study mechanical engineering? Programming is just a skill like anything else in the world. If you are someone who is good at problem-solving and willing the put the efforts it requires, the success will follow you!",
+          "description": "To become a skillful car driver, do we need to study mechanical engineering? Programming is just a skill like anything else in the world. If you are someone who is good at problem-solving and willing the put in the efforts it requires, success will follow you!",
           "duration": 277,
           "order": 6,
           "isFree": true,
@@ -117,7 +117,7 @@
           "slug": "after-learning-to-build-web-applications-what's-the-next-step",
           "title": "After learning to build web applications, what's the next step?",
           "url": "https://www.youtube.com/watch?v=1auKjGkSb8Y&list=PLx5yLWqRqsqCBQCj31CUg0bOb6Ofu-JGy",
-          "description": "Learning is a journey without any destination in software development. As a software engineer, we'll be solving problems every single day. After getting better at building end-to-end application, our next step is getting specialised in certain areas which we like a lot.",
+          "description": "Learning is a journey without any destination in software development. As a software engineer, we'll be solving problems every single day. After getting better at building end-to-end application, our next step is to get specialized in certain areas which we like a lot.",
           "duration": 270,
           "order": 9,
           "isFree": true,
@@ -190,8 +190,8 @@
       "lastUpdatedOn": "2020-09-07",
       "isFree": true,
       "level": "Beginner",
-      "duration": 8528,
-      "lessonsCount": 8,
+      "duration": 10321,
+      "lessonsCount": 9,
       "bannerImagePath": "/logos/courses/learn-programming-using-scratch-and-javascript.png",
       "learningOutcomes": [
         "What is Programming?",
@@ -287,6 +287,16 @@
           "order": 8,
           "isFree": true,
           "publishedOn": "2020-11-15"
+        },
+        "decision-making": {
+          "slug": "decision-making",
+          "title": "Decision Making",
+          "url": "https://www.youtube.com/watch?v=4Xp7FMH8HHQ&list=PLx5yLWqRqsqBSc7ahDpqciwX5HaueBhek",
+          "description": "Decision Making is one of the crucial steps in real-world programming. In this lesson, we are going to learn how to communicate decisions in programming. Then we'll apply it in three different real-life scenarios.",
+          "duration": 1793,
+          "order": 9,
+          "isFree": true,
+          "publishedOn": "2020-12-24"
         }
       }
     }
