@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1608871910267,
+  "generatedAt": 1609067941412,
   "data": {
     "a-career-guide-to-software-development": {
       "slug": "a-career-guide-to-software-development",
@@ -190,8 +190,8 @@
       "lastUpdatedOn": "2020-09-07",
       "isFree": true,
       "level": "Beginner",
-      "duration": 10321,
-      "lessonsCount": 9,
+      "duration": 11701,
+      "lessonsCount": 10,
       "bannerImagePath": "/logos/courses/learn-programming-using-scratch-and-javascript.png",
       "learningOutcomes": [
         "What is Programming?",
@@ -297,6 +297,16 @@
           "order": 9,
           "isFree": true,
           "publishedOn": "2020-12-24"
+        },
+        "logical-operators": {
+          "slug": "logical-operators",
+          "title": "Logical Operators",
+          "url": "https://www.youtube.com/watch?v=XJL01W6gRmM&list=PLx5yLWqRqsqBSc7ahDpqciwX5HaueBhek",
+          "description": "Decision making in real-world programs involves checking multiple conditions. In this lesson, we'll be learning how to use logical operators to implement any kind of boolean conditions.",
+          "duration": 1380,
+          "order": 10,
+          "isFree": true,
+          "publishedOn": "2020-12-27"
         }
       }
     }
