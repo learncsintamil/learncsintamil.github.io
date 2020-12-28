@@ -6,8 +6,8 @@
   "lastUpdatedOn": "2020-09-07",
   "isFree": true,
   "level": "Beginner",
-  "duration": 11701,
-  "lessonsCount": 10,
+  "duration": 13991,
+  "lessonsCount": 12,
   "bannerImagePath": "/logos/courses/learn-programming-using-scratch-and-javascript.png",
   "learningOutcomes": [
     "What is Programming?",
@@ -124,5 +124,25 @@
       "isFree": true,
       "publishedOn": "2020-12-27"
     }
+  },
+  "assignment-operators-and-constant": {
+    "slug": "assignment-operators-and-constant",
+    "title": "Assignment Operators & Constant",
+    "url": "https://www.youtube.com/watch?v=sfcN0QtuQhI&list=PLx5yLWqRqsqBSc7ahDpqciwX5HaueBhek",
+    "description": "While working with variables, sometimes we may need to change its value after declaration using assignment operators. In this lesson, we'll learn how to do it. We'll also be learning how to prevent changes to a variable using constant.",
+    "duration": 956,
+    "order": 11,
+    "isFree": true,
+    "publishedOn": "2020-12-28"
+  },
+  "iteration": {
+    "slug": "iteration",
+    "title": "Iteration",
+    "url": "https://www.youtube.com/watch?v=gCbbDoIb3NI&list=PLx5yLWqRqsqBSc7ahDpqciwX5HaueBhek",
+    "description": "Iteration is one of the important control flow in programming. In this lesson, we will be starting with how it is associated with our lives and then dive deep into how to perform iterations in Javascript. We'll also be learning four critical steps in iteration and how it can be used across three different iteration constructs.",
+    "duration": 1424,
+    "order": 12,
+    "isFree": true,
+    "publishedOn": "2020-12-29"
   }
 }
