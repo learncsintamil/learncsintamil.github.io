@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1609166484203,
+  "generatedAt": 1609256735463,
   "data": {
     "a-career-guide-to-software-development": {
       "slug": "a-career-guide-to-software-development",
@@ -190,8 +190,8 @@
       "lastUpdatedOn": "2020-09-07",
       "isFree": true,
       "level": "Beginner",
-      "duration": 13991,
-      "lessonsCount": 12,
+      "duration": 15562,
+      "lessonsCount": 13,
       "bannerImagePath": "/logos/courses/learn-programming-using-scratch-and-javascript.png",
       "learningOutcomes": [
         "What is Programming?",
@@ -327,6 +327,16 @@
           "order": 12,
           "isFree": true,
           "publishedOn": "2020-12-29"
+        },
+        "array": {
+          "slug": "array",
+          "title": "Array",
+          "url": "https://www.youtube.com/watch?v=gCbbDoIb3NI&list=PLx5yLWqRqsqBSc7ahDpqciwX5HaueBhek",
+          "description": "In a typical real-world program, more often, we have to deal with a list of something. In this lesson, we are going to learn how to use Array to represent the list. Then we'll be seeing it in action with his close friend, Iteration.",
+          "duration": 1571,
+          "order": 13,
+          "isFree": true,
+          "publishedOn": "2020-12-30"
         }
       }
     }
