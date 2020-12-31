@@ -10,3 +10,7 @@
 .page-leave-to {
   opacity: 0;
 }
+
+iframe {
+  width: 100% !important;
+}

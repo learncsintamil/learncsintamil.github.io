@@ -46,7 +46,8 @@ export default {
   ** https://nuxtjs.org/guide/plugins
   */
   plugins: [
-    '~/plugins/filters.js'
+    '~/plugins/filters.js',
+    '~/plugins/vimeo.js',
   ],
   /*
   ** Auto import components
@@ -87,7 +88,10 @@ export default {
           "focus-within-pseudo-class": false
         }
       }
-    }
+    },
+    vendor: [
+      'vue-vimeo-player'
+    ]
   },
 
   watch: [

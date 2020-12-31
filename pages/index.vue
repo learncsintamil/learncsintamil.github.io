@@ -1,7 +1,6 @@
 <template>
   <div>
     <div
-      @keydown.esc="onHideIntroVideo"
       class="relative sm:pt-10 pb-12 sm:pb-16"
     >
       <main class="px-4 sm:px-8 mt-6 mx-auto max-w-screen-xl sm:mt-12 md:mt-16 lg:mt-20 xl:mt-28">
@@ -13,64 +12,46 @@
             class="mt-3 md:mt-6 mx-auto max-w-2xl text-gray-850 text-xl sm:text-2xl"
           >Everything you need to build a successful career in IT.</p>
           <NewsletterSubscription class="mt-5 max-w-xl mx-auto sm:flex sm:justify-center md:mt-8"></NewsletterSubscription>
-          <div class="mt-6 sm:mt-4">
-            <a
-              href="#"
-              @click.prevent="onShowIntroVideo"
-              class="link font-medium text-lg"
-            >Watch introduction video</a>
-          </div>
+        </div>
+        <div class="sm:mb-8">
+          <client-only>
+            <vimeo-player class="w-full mx-auto sm:flex sm:justify-center md:mt-4" ref="player" video-id="473700160" :player-height="320"/>
+          </client-only>
         </div>
       </main>
-      <div class="bg-orange-50 mt-16 pt-12 pb-24 sm:pb-36 flex flex-col justify-center items-center">
-        <p class="text-xl sm:text-2xl font-semibold font-serif">Featured Course</p>
-        <div class="lg:w-1/3 bg-orange-50 pt-12 px-4 sm:px-8">
-          <Course :course="featuredCourse"></Course>
+      <div class="bg-orange-50 mt-2 sm:mt-4 py-6 sm:py-12 flex flex-col justify-center items-center">
+        <p class="text-xl sm:text-2xl font-semibold font-serif">Courses</p>
+        <div class="pb-24 mt-8 sm:mt-14 max-w-screen-lg mx-auto">
+        <div class="px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <Course v-for="course in courses" :key="course.slug" :course="course"></Course>
         </div>
       </div>
-      <YoutubeOverlayVideo
-        :open="showIntroVideo"
-        src="https://www.youtube.com/embed/rIwpFds_xb8"
-        :onClose="onHideIntroVideo"
-      ></YoutubeOverlayVideo>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
 import Logo from './../components/Logo'
-import YoutubeOverlayVideo from './../components/YoutubeOverlayVideo'
 import NewsletterSubscription from './../components/NewsletterSubscription'
 import Footer from './../components/Footer'
-import Course from './../components/Course'
+const getCourses = () =>
+  import(`~/data/courses.json`).then((m) => Object.values(m.data))
 
-const getFeaturedCourse = () =>
-  import(`~/data/courses/a-career-guide-to-software-development.json`).then(
-    (x) => x
-  )
+import Course from './../components/Course'
 
 export default {
   components: {
     Logo,
-    YoutubeOverlayVideo,
     Footer,
     NewsletterSubscription,
     Course,
   },
-  methods: {
-    onShowIntroVideo() {
-      this.showIntroVideo = true
-    },
-    onHideIntroVideo() {
-      this.showIntroVideo = false
-    },
-  },
-  data() {
-    return { showIntroVideo: false }
-  },
   async asyncData({ params }) {
-    const featuredCourse = await getFeaturedCourse()
-    return { featuredCourse: featuredCourse }
+    const courses = await getCourses()
+    return { 
+      courses: courses
+    }
   },
 }
 </script>
