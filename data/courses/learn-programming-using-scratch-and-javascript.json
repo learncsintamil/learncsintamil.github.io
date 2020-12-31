@@ -6,8 +6,8 @@
   "lastUpdatedOn": "2020-09-07",
   "isFree": true,
   "level": "Beginner",
-  "duration": 15562,
-  "lessonsCount": 13,
+  "duration": 17256,
+  "lessonsCount": 15,
   "bannerImagePath": "/logos/courses/learn-programming-using-scratch-and-javascript.png",
   "learningOutcomes": [
     "What is Programming?",
@@ -153,6 +153,26 @@
       "order": 13,
       "isFree": true,
       "publishedOn": "2020-12-30"
+    },
+    "iteration-patterns": {
+      "slug": "iteration-patterns",
+      "title": "Iteration Patterns",
+      "url": "https://www.youtube.com/watch?v=ogPyP9tmac8&list=PLx5yLWqRqsqBSc7ahDpqciwX5HaueBhek",
+      "description": "While working with arrays using iteration, you typically use four patterns to solve the problems. In this lesson, we'll learn what they are and how it works.",
+      "duration": 1130,
+      "order": 14,
+      "isFree": true,
+      "publishedOn": "2020-12-31"
+    },
+    "breaking-and-ignoring-iteration": {
+      "slug": "breaking-and-ignoring-iteration",
+      "title": "Breaking and Ignoring Iteration",
+      "url": "https://www.youtube.com/watch?v=ySAobIUFquo&list=PLx5yLWqRqsqBSc7ahDpqciwX5HaueBhek",
+      "description": "Sometimes, we may need to stop the iteration in the middle, and some other times, we may need to ignore a particular iteration step. In this lesson, we'll learn how to do it. Then we'll have a look at the other alternative approaches for solving this logic. ",
+      "duration": 564,
+      "order": 15,
+      "isFree": true,
+      "publishedOn": "2020-12-31"
     }
   }
 }

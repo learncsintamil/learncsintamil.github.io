@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1609256735463,
+  "generatedAt": 1609408469713,
   "data": {
     "a-career-guide-to-software-development": {
       "slug": "a-career-guide-to-software-development",
@@ -190,8 +190,8 @@
       "lastUpdatedOn": "2020-09-07",
       "isFree": true,
       "level": "Beginner",
-      "duration": 15562,
-      "lessonsCount": 13,
+      "duration": 17256,
+      "lessonsCount": 15,
       "bannerImagePath": "/logos/courses/learn-programming-using-scratch-and-javascript.png",
       "learningOutcomes": [
         "What is Programming?",
@@ -331,12 +331,32 @@
         "array": {
           "slug": "array",
           "title": "Array",
-          "url": "https://www.youtube.com/watch?v=gCbbDoIb3NI&list=PLx5yLWqRqsqBSc7ahDpqciwX5HaueBhek",
+          "url": "https://www.youtube.com/watch?v=9XQRZJKDBHM&list=PLx5yLWqRqsqBSc7ahDpqciwX5HaueBhek",
           "description": "In a typical real-world program, more often, we have to deal with a list of something. In this lesson, we are going to learn how to use Array to represent the list. Then we'll be seeing it in action with his close friend, Iteration.",
           "duration": 1571,
           "order": 13,
           "isFree": true,
           "publishedOn": "2020-12-30"
+        },
+        "iteration-patterns": {
+          "slug": "iteration-patterns",
+          "title": "Iteration Patterns",
+          "url": "https://www.youtube.com/watch?v=ogPyP9tmac8&list=PLx5yLWqRqsqBSc7ahDpqciwX5HaueBhek",
+          "description": "While working with arrays using iteration, you typically use four patterns to solve the problems. In this lesson, we'll learn what they are and how it works.",
+          "duration": 1130,
+          "order": 14,
+          "isFree": true,
+          "publishedOn": "2020-12-31"
+        },
+        "breaking-and-ignoring-iteration": {
+          "slug": "breaking-and-ignoring-iteration",
+          "title": "Breaking and Ignoring Iteration",
+          "url": "https://www.youtube.com/watch?v=ySAobIUFquo&list=PLx5yLWqRqsqBSc7ahDpqciwX5HaueBhek",
+          "description": "Sometimes, we may need to stop the iteration in the middle, and some other times, we may need to ignore a particular iteration step. In this lesson, we'll learn how to do it. Then we'll have a look at the other alternative approaches for solving this logic. ",
+          "duration": 564,
+          "order": 15,
+          "isFree": true,
+          "publishedOn": "2020-12-31"
         }
       }
     }
