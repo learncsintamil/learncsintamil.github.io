@@ -30,7 +30,9 @@
       "order" : 1,
       "isFree": true,
       "publishedOn": "2020-09-07",
-      "nextLessonSlug": "our-first-program"
+      "nextLessonSlug": "our-first-program",
+      "sourceCode": "",
+      "slides": "https://docs.google.com/presentation/d/1xYU--TFCv0EyP-j-gPEsq1PiLqEl_daXQh9Fglxk8k4/edit?usp=sharing"
     },
     "our-first-program": {
       "slug": "our-first-program",
@@ -41,7 +43,9 @@
       "order" : 2,
       "isFree": true,
       "publishedOn": "2020-09-09",
-      "nextLessonSlug": "hello-world-in-javascript"
+      "nextLessonSlug": "hello-world-in-javascript",
+      "sourceCode": "",
+      "slides": "https://docs.google.com/presentation/d/1nZqguRZX4fKjAsLQTamjDtnxnroC_MZhvdtElCF3hrM/edit?usp=sharing"
     },
     "hello-world-in-javascript": {
       "slug": "hello-world-in-javascript",
@@ -52,7 +56,9 @@
       "order" : 3,
       "isFree": true,
       "publishedOn": "2020-09-10",
-      "nextLessonSlug": "data-and-operators"
+      "nextLessonSlug": "data-and-operators",
+      "sourceCode": "",
+      "slides": "https://docs.google.com/presentation/d/1Lp7b4aBpcjiX1qlZQamNzYj0LEJSE_XXjnwxb1MaV8M/edit?usp=sharing"
     },
     "data-and-operators": {
       "slug": "data-and-operators",
@@ -62,7 +68,9 @@
       "duration": 1783,
       "order" : 4,
       "isFree": true,
-      "publishedOn": "2020-09-10"
+      "publishedOn": "2020-09-10",
+      "sourceCode": "",
+      "slides": "https://docs.google.com/presentation/d/1dFYQfymu7kq10HPCSZRH-tdxH1jSMG5pWbtM9vWIAgE/edit?usp=sharing"
     },
     "defining-a-function": {
       "slug": "defining-a-function",
@@ -72,7 +80,9 @@
       "duration": 1800,
       "order" : 5,
       "isFree": true,
-      "publishedOn": "2020-10-01"
+      "publishedOn": "2020-10-01",
+      "sourceCode": "",
+      "slides": "https://docs.google.com/presentation/d/1XN_OY4m-1KVtYum0x2ZfbApub9Sf5vMKExxwRPoqiCo/edit?usp=sharing"
     },
     "single-responsibility-principle": {
       "slug": "single-responsibility-principle",
@@ -82,7 +92,9 @@
       "duration": 1077,
       "order" : 6,
       "isFree": true,
-      "publishedOn": "2020-10-26"
+      "publishedOn": "2020-10-26",
+      "sourceCode": "https://github.com/learncsintamil/course-notes/tree/main/learn-programming-using-scratch-and-javascript/06-srp",
+      "slides": "https://docs.google.com/presentation/d/1UG8wiRO9aplovoZy28GJjKbpz9gbYCDN4-7cmHX-a5c/edit?usp=sharing"
     },
     "saving-intermediate-result": {
       "slug": "saving-intermediate-result",
@@ -92,7 +104,9 @@
       "duration": 634,
       "order" : 7,
       "isFree": true,
-      "publishedOn": "2020-11-04"
+      "publishedOn": "2020-11-04",
+      "sourceCode": "https://github.com/learncsintamil/course-notes/tree/main/learn-programming-using-scratch-and-javascript/07-intermediate-result",
+      "slides": "https://docs.google.com/presentation/d/1PuQsPGi1iwNXfmXvTse0OsO2m8b9Zi0ijphqj1tHby0/edit?usp=sharing"
     },
     "feedback-loop": {
       "slug": "feedback-loop",
@@ -102,7 +116,9 @@
       "duration": 882,
       "order" : 8,
       "isFree": true,
-      "publishedOn": "2020-11-15"
+      "publishedOn": "2020-11-15",
+      "sourceCode": "",
+      "slides": "https://docs.google.com/presentation/d/1_ojmn2ckvKhTDErl-LdC8XNoJ7agMlpWYX_okUEPWdk/edit?usp=sharing"
     },
     "decision-making": {
       "slug": "decision-making",
@@ -112,7 +128,9 @@
       "duration": 1793,
       "order": 9,
       "isFree": true,
-      "publishedOn": "2020-12-24"
+      "publishedOn": "2020-12-24",
+      "sourceCode": "https://github.com/learncsintamil/course-notes/tree/main/learn-programming-using-scratch-and-javascript/09-decision-making",
+      "slides": "https://docs.google.com/presentation/d/1RYWxHUUjciM3o_Q1Gt7qqONVKWQXcEeJVq2dyz7pEm4/edit?usp=sharing"
     },
     "logical-operators": {
       "slug": "logical-operators",
@@ -122,7 +140,9 @@
       "duration": 1380,
       "order": 10,
       "isFree": true,
-      "publishedOn": "2020-12-27"
+      "publishedOn": "2020-12-27",
+      "sourceCode": "https://github.com/learncsintamil/course-notes/tree/main/learn-programming-using-scratch-and-javascript/10-logical-operators",
+      "slides": "https://docs.google.com/presentation/d/1BQ6xItsn8NR_oxDWxVsOHGbGYBP4U0Ez1dvxcFiSGFc/edit?usp=sharing"
     },
     "assignment-operators-and-constant": {
       "slug": "assignment-operators-and-constant",
@@ -132,7 +152,9 @@
       "duration": 956,
       "order": 11,
       "isFree": true,
-      "publishedOn": "2020-12-28"
+      "publishedOn": "2020-12-28",
+      "sourceCode": "https://github.com/learncsintamil/course-notes/tree/main/learn-programming-using-scratch-and-javascript/11-constant-and-assignment-operators",
+      "slides": "https://docs.google.com/presentation/d/1GsOv7ELQrYirMkml0_JgZ5p7-S88FpP4akK5kBafrEE/edit?usp=sharing"
     },
     "iteration": {
       "slug": "iteration",
@@ -142,7 +164,9 @@
       "duration": 1424,
       "order": 12,
       "isFree": true,
-      "publishedOn": "2020-12-29"
+      "publishedOn": "2020-12-29",
+      "sourceCode": "https://github.com/learncsintamil/course-notes/tree/main/learn-programming-using-scratch-and-javascript/12-iteration",
+      "slides": "https://docs.google.com/presentation/d/11zT4UT0I4fa0QgwHoqp_t7fT8NCQv8FOkl65PSFbZ2Q/edit?usp=sharing"
     },
     "array": {
       "slug": "array",
@@ -152,7 +176,9 @@
       "duration": 1571,
       "order": 13,
       "isFree": true,
-      "publishedOn": "2020-12-30"
+      "publishedOn": "2020-12-30",
+      "sourceCode": "https://github.com/learncsintamil/course-notes/tree/main/learn-programming-using-scratch-and-javascript/13-array",
+      "slides": "https://docs.google.com/presentation/d/1S8F8EvOYoUFETiIdJgLuqHhozPAba_0d5SgwNV6vfSg/edit?usp=sharing"
     },
     "iteration-patterns": {
       "slug": "iteration-patterns",
@@ -162,7 +188,9 @@
       "duration": 1130,
       "order": 14,
       "isFree": true,
-      "publishedOn": "2020-12-31"
+      "publishedOn": "2020-12-31",
+      "sourceCode": "https://github.com/learncsintamil/course-notes/tree/main/learn-programming-using-scratch-and-javascript/14-four-iteration-patterns",
+      "slides": "https://docs.google.com/presentation/d/1IwSr24FCfJHQQrTw9d1ulr8dSc3pSciKZb1NUv_gG90/edit?usp=sharing"
     },
     "breaking-and-ignoring-iteration": {
       "slug": "breaking-and-ignoring-iteration",
@@ -172,7 +200,9 @@
       "duration": 564,
       "order": 15,
       "isFree": true,
-      "publishedOn": "2020-12-31"
+      "publishedOn": "2020-12-31",
+      "sourceCode": "https://github.com/learncsintamil/course-notes/tree/main/learn-programming-using-scratch-and-javascript/15-break-and-continue",
+      "slides": "https://docs.google.com/presentation/d/1BLLKARPRz_nL7B7XIIkxvvGisbiNZGX11Mh3VINxyKo/edit?usp=sharing"
     }
   }
 }
