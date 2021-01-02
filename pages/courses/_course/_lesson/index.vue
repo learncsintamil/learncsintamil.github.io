@@ -1,10 +1,10 @@
 <template>
-  <div class="pb-24 mt-6 sm:mt-10 max-w-screen-lg mx-auto">
+  <div class="pb-24 -mt-4 sm:mt-10 max-w-screen-lg mx-auto">
     <div class="grid grid-cols-1 lg:grid-cols-3 lg:gap-1">
       <div class="lg:col-span-2">
         <p class="text-center" v-html="loadingText"></p>
         <client-only>
-            <vimeo-player class="vimeo-player h-72 lg:h-128" 
+            <vimeo-player class="vimeo-player h-60 lg:h-128" 
               ref="player" 
               @ready="onReady"
               @ended="onEnd"
@@ -12,7 +12,7 @@
         </client-only>
         <p class="text-center">&nbsp;</p>
       </div>
-      <div class="lg:col-span-1 bg-white mt-2 lg:mt-0 shadow-xl">
+      <div class="lg:col-span-1 bg-white shadow-xl">
         <div class="flex bg-brown-dark px-4 py-4 shadow-inner">
           <img :src="course.bannerImagePath" class="shadow-md rounded-md h-16 w-16 mx-auto flex-none" />
           <p class="text-lg font-medium ml-4 flex-grow">{{course.title}}</p>
@@ -102,7 +102,6 @@ export default {
     }
   },
   mounted() {
-    debugger;
     this.$refs.lessonsContainer.scrollTop = this.$refs[this.lesson.slug][0].$el.scrollHeight * (this.lesson.order - 2);
   },
   async asyncData({ params, query }) {
