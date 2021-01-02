@@ -11,9 +11,9 @@
         <nuxt-link
           class="text-base sm:text-xl font-bold cursor-pointer link font-serif"
           :to="lessonPath"
-          v-if="lesson.url"
+          v-if="lesson.vimeoVideoId"
         >{{lesson.title}}</nuxt-link>
-        <span v-if="!lesson.url" class="text-base sm:text-xl font-bold">{{lesson.title}}</span>
+        <span v-if="!lesson.vimeoVideoId" class="text-base sm:text-xl font-bold">{{lesson.title}}</span>
         <ComingSoonBadge v-if="!lesson.publishedOn" class="mt-1 sm:mt-0 ml-2 self-start"></ComingSoonBadge>
       </div>
       <div class="flex items-center flex-row text-gray-600 pt-1" v-if="lesson.publishedOn">

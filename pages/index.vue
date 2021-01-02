@@ -15,7 +15,7 @@
         </div>
         <div class="sm:mb-8">
           <client-only>
-            <vimeo-player class="w-full mx-auto sm:flex sm:justify-center md:mt-4" ref="player" video-id="473700160" :player-height="320"/>
+            <vimeo-player class="w-full mx-auto sm:flex sm:justify-center md:mt-4 h-72 lg:h-128" ref="player" video-id="473700160"/>
           </client-only>
         </div>
       </main>

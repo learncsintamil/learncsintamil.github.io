@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1609408469713,
+  "generatedAt": 1609585908010,
   "data": {
     "a-career-guide-to-software-development": {
       "slug": "a-career-guide-to-software-development",
@@ -23,12 +23,11 @@
         "Open Mind",
         "Curiosity"
       ],
-      "startUrl": "https://www.youtube.com/watch?v=q0MptzyV4DY&list=PLx5yLWqRqsqCBQCj31CUg0bOb6Ofu-JGy",
       "lessons": {
         "first-step-in-software-engineering": {
           "slug": "first-step-in-software-engineering",
           "title": "First step in Software Engineering",
-          "url": "https://www.youtube.com/watch?v=q0MptzyV4DY&list=PLx5yLWqRqsqCBQCj31CUg0bOb6Ofu-JGy",
+          "vimeoVideoId": "494374949",
           "description": "In this lesson, we'll discuss the answers to three commonly asked questions from people who are getting started in Software Development.",
           "duration": 733,
           "order": 1,
@@ -39,7 +38,7 @@
         "how-i-got-started-in-programming": {
           "slug": "how-i-got-started-in-programming",
           "title": "How I got started in programming",
-          "url": "https://www.youtube.com/watch?v=Zm4i3P_6Hlc&list=PLx5yLWqRqsqCBQCj31CUg0bOb6Ofu-JGy",
+          "vimeoVideoId": "494374263",
           "description": "Software development is not a magic skill. Anyone with a good problem-solving ability can easily pick it up. In this lesson, I am going to travel down my memory lane and narrate how I got started in programming. A normal person from a small village saw the computer for the very first time in his life and the rest is an interesting story.",
           "duration": 1315,
           "order": 2,
@@ -50,7 +49,7 @@
         "product-company-vs-services-company-how-to-choose": {
           "slug": "product-company-vs-services-company-how-to-choose",
           "title": "Product Company vs Services Company - How to Choose",
-          "url": "https://www.youtube.com/watch?v=KBAazVOHPes&list=PLx5yLWqRqsqCBQCj31CUg0bOb6Ofu-JGy",
+          "vimeoVideoId": "494374455",
           "description": "Every individual is different, and we like different things. Depends on our nature and aspirations, we see things in life differently. Hence, the best person is to choose between these is you and you only. Don't put the money first, but happiness and money will follow!",
           "duration": 713,
           "order": 3,
@@ -61,7 +60,7 @@
         "data-structure-competitive-programming-important-to-get-into-good-companies": {
           "slug": "data-structure-competitive-programming-important-to-get-into-good-companies",
           "title": "Data Structure & Competitive Programming - Important to get into good companies?",
-          "url": "https://www.youtube.com/watch?v=w07rko99vWQ&list=PLx5yLWqRqsqCBQCj31CUg0bOb6Ofu-JGy",
+          "vimeoVideoId": "494374559",
           "description": "We need to look at a big picture here. What's our intention behind preparing for an interview or doing competitive programming, is it to get a job? Life is more beyond that. Computer science or software development is not just data structure and algorithms or competitive programming. Don't have a narrow vision :)",
           "duration": 981,
           "order": 4,
@@ -72,7 +71,7 @@
         "entrepreneurship-when-can-i-found-a-startup": {
           "slug": "entrepreneurship-when-can-i-found-a-startup",
           "title": "Entrepreneurship - When can I found a startup?",
-          "url": "https://www.youtube.com/watch?v=VWNf9nrW9W8&list=PLx5yLWqRqsqCBQCj31CUg0bOb6Ofu-JGy",
+          "vimeoVideoId": "494374695",
           "description": "Becoming an entrepreneur requires a different mindset and character. To found a startup, you need an idea that you are passionate about and people who are willing to pay you for the benefits they are getting.",
           "duration": 606,
           "order": 5,
@@ -83,7 +82,7 @@
         "can-i-be-successful-in-it-without-a-computer-science-degree": {
           "slug": "can-i-be-successful-in-it-without-a-computer-science-degree",
           "title": "Can I be successful in IT without a Computer Science degree?",
-          "url": "https://www.youtube.com/watch?v=jfRptcm00iw&list=PLx5yLWqRqsqCBQCj31CUg0bOb6Ofu-JGy",
+          "vimeoVideoId": "494374787",
           "description": "To become a skillful car driver, do we need to study mechanical engineering? Programming is just a skill like anything else in the world. If you are someone who is good at problem-solving and willing the put in the efforts it requires, success will follow you!",
           "duration": 277,
           "order": 6,
@@ -94,7 +93,7 @@
         "skills-of-a-candidate-company-expectation": {
           "slug": "skills-of-a-candidate-company-expectation",
           "title": "Skills of a candidate - Company Expectation",
-          "url": "https://www.youtube.com/watch?v=jS4w0GsUgdM&list=PLx5yLWqRqsqCBQCj31CUg0bOb6Ofu-JGy",
+          "vimeoVideoId": "494374835",
           "description": "Each company has different requirements and hence they look for different skills in a candidate. But there are some key skills which will make you employable. In this lesson, we'll look at what are they.",
           "duration": 263,
           "order": 7,
@@ -105,7 +104,7 @@
         "how-to-start-a-career-in-the-it-industry": {
           "slug": "how-to-start-a-career-in-the-it-industry",
           "title": "How to start a career in the IT Industry?",
-          "url": "https://www.youtube.com/watch?v=aYmbNw0B9XQ&list=PLx5yLWqRqsqCBQCj31CUg0bOb6Ofu-JGy",
+          "vimeoVideoId": "474071740",
           "description": "Getting a job and building a career are two different things. By following certain proven things, we can easily crack an interview. But building a career requires a lot of dedication and efforts.",
           "duration": 330,
           "order": 8,
@@ -116,7 +115,7 @@
         "after-learning-to-build-web-applications-what's-the-next-step": {
           "slug": "after-learning-to-build-web-applications-what's-the-next-step",
           "title": "After learning to build web applications, what's the next step?",
-          "url": "https://www.youtube.com/watch?v=1auKjGkSb8Y&list=PLx5yLWqRqsqCBQCj31CUg0bOb6Ofu-JGy",
+          "vimeoVideoId": "494374908",
           "description": "Learning is a journey without any destination in software development. As a software engineer, we'll be solving problems every single day. After getting better at building end-to-end application, our next step is to get specialized in certain areas which we like a lot.",
           "duration": 270,
           "order": 9,
@@ -146,12 +145,11 @@
       "prerequisites": [
         "Basic computer operating skills"
       ],
-      "startUrl": "https://www.youtube.com/watch?v=YbjAMdHMhw4&list=PLx5yLWqRqsqCOLsTbaHiD1p096Ynnttuy",
       "lessons": {
         "mental-model": {
           "slug": "mental-model",
           "title": "Mental Model",
-          "url": "https://www.youtube.com/watch?v=YbjAMdHMhw4&list=PLx5yLWqRqsqCOLsTbaHiD1p096Ynnttuy",
+          "vimeoVideoId": "482653753",
           "description": "In this lesson, we will be learning about a mental model which will help you to learn website development efficiently.",
           "duration": 453,
           "order": 1,
@@ -162,7 +160,7 @@
         "developing-and-publishing-your-first-website": {
           "slug": "developing-and-publishing-your-first-website",
           "title": "Developing And Publishing Your First Website",
-          "url": "https://www.youtube.com/watch?v=HGjIaarRVi0&list=PLx5yLWqRqsqCOLsTbaHiD1p096Ynnttuy",
+          "vimeoVideoId": "482660804",
           "description": "In this lesson, we will be learning the basics of the HTML syntax and how to create a simple webpage using it. Then we'll be publishing this website on the Internet using Netlify.",
           "duration": 2549,
           "order": 2,
@@ -173,7 +171,7 @@
         "basics-of-css": {
           "slug": "basics-of-css",
           "title": "Basics of CSS",
-          "url": "https://www.youtube.com/watch?v=YwPrAnh65Wk&list=PLx5yLWqRqsqCOLsTbaHiD1p096Ynnttuy",
+          "vimeoVideoId": "482661416",
           "description": "In this lesson, we will be learning the basics of the CSS and how to make a webpage beautiful.",
           "duration": 1582,
           "isFree": true,
@@ -203,160 +201,189 @@
       "prerequisites": [
         "Basic computer operating skills"
       ],
-      "startUrl": "https://www.youtube.com/watch?v=HqY8f5xdwXc&list=PLx5yLWqRqsqBSc7ahDpqciwX5HaueBhek",
       "lessons": {
         "introduction": {
           "slug": "introduction",
           "title": "Introduction",
-          "url": "https://www.youtube.com/watch?v=HqY8f5xdwXc&list=PLx5yLWqRqsqBSc7ahDpqciwX5HaueBhek",
+          "vimeoVideoId": "474061091",
           "description": "In this lesson, we'll be learning what programming is and the roles of programming languages in writing a program.",
           "duration": 647,
           "order": 1,
           "isFree": true,
           "publishedOn": "2020-09-07",
-          "nextLessonSlug": "our-first-program"
+          "nextLessonSlug": "our-first-program",
+          "sourceCode": "",
+          "slides": "https://docs.google.com/presentation/d/1xYU--TFCv0EyP-j-gPEsq1PiLqEl_daXQh9Fglxk8k4/edit?usp=sharing"
         },
         "our-first-program": {
           "slug": "our-first-program",
           "title": "Our First Program",
-          "url": "https://www.youtube.com/watch?v=v8iRw0YFLIQ&list=PLx5yLWqRqsqBSc7ahDpqciwX5HaueBhek",
+          "vimeoVideoId": "474070311",
           "description": "In this lesson, we'll be learning how to write a simple program using Scratch. Then we'll understand how it ran and the differences between high-level & low-level programming languages.",
           "duration": 824,
           "order": 2,
           "isFree": true,
           "publishedOn": "2020-09-09",
-          "nextLessonSlug": "hello-world-in-javascript"
+          "nextLessonSlug": "hello-world-in-javascript",
+          "sourceCode": "",
+          "slides": "https://docs.google.com/presentation/d/1nZqguRZX4fKjAsLQTamjDtnxnroC_MZhvdtElCF3hrM/edit?usp=sharing"
         },
         "hello-world-in-javascript": {
           "slug": "hello-world-in-javascript",
           "title": "Hello World in Javascript",
-          "url": "https://www.youtube.com/watch?v=BZXxjvL2oWc&list=PLx5yLWqRqsqBSc7ahDpqciwX5HaueBhek",
+          "vimeoVideoId": "474071118",
           "description": "In this lesson, we'll be installing node.js & VS Code and learning how to write a simple program using javascript. We'll also understand the similarities between scratch and javascript.",
           "duration": 881,
           "order": 3,
           "isFree": true,
           "publishedOn": "2020-09-10",
-          "nextLessonSlug": "data-and-operators"
+          "nextLessonSlug": "data-and-operators",
+          "sourceCode": "",
+          "slides": "https://docs.google.com/presentation/d/1Lp7b4aBpcjiX1qlZQamNzYj0LEJSE_XXjnwxb1MaV8M/edit?usp=sharing"
         },
         "data-and-operators": {
           "slug": "data-and-operators",
           "title": "Data & Operators",
-          "url": "https://youtu.be/H9yTfZI5k-w",
+          "vimeoVideoId": "482661891",
           "description": "We all know how to do calculations using a calculator. Do you know, you can use this same knowledge to do calculations in Programming. In this lesson, we'll be learning about different types of data & how to solve basic mathematical equations in both Scratch & Javascript.",
           "duration": 1783,
           "order": 4,
           "isFree": true,
-          "publishedOn": "2020-09-10"
+          "publishedOn": "2020-09-10",
+          "sourceCode": "",
+          "slides": "https://docs.google.com/presentation/d/1dFYQfymu7kq10HPCSZRH-tdxH1jSMG5pWbtM9vWIAgE/edit?usp=sharing"
         },
         "defining-a-function": {
           "slug": "defining-a-function",
           "title": "Defining a function",
-          "url": "https://www.youtube.com/watch?v=SX7MLq7y4JA&list=PLx5yLWqRqsqBSc7ahDpqciwX5HaueBhek",
+          "vimeoVideoId": "482662483",
           "description": "In this lesson, we are going to learn two important concepts in programming. How to use functions created by someone else and how to write our own function to solve our requirements.",
           "duration": 1800,
           "order": 5,
           "isFree": true,
-          "publishedOn": "2020-10-01"
+          "publishedOn": "2020-10-01",
+          "sourceCode": "",
+          "slides": "https://docs.google.com/presentation/d/1XN_OY4m-1KVtYum0x2ZfbApub9Sf5vMKExxwRPoqiCo/edit?usp=sharing"
         },
         "single-responsibility-principle": {
           "slug": "single-responsibility-principle",
           "title": "Single Responsibility Principle",
-          "url": "https://www.youtube.com/watch?v=2yqryCZ-rFo&list=PLx5yLWqRqsqBSc7ahDpqciwX5HaueBhek",
+          "vimeoVideoId": "478797038",
           "description": "In this lesson, we are going to learn one of the most important principles in programming, Single Responsibility Principle. We'll be revisiting the functions that we wrote in the last lesson and update them to return a value instead of printing the calculated result.",
           "duration": 1077,
           "order": 6,
           "isFree": true,
-          "publishedOn": "2020-10-26"
+          "publishedOn": "2020-10-26",
+          "sourceCode": "https://github.com/learncsintamil/course-notes/tree/main/learn-programming-using-scratch-and-javascript/06-srp",
+          "slides": "https://docs.google.com/presentation/d/1UG8wiRO9aplovoZy28GJjKbpz9gbYCDN4-7cmHX-a5c/edit?usp=sharing"
         },
         "saving-intermediate-result": {
           "slug": "saving-intermediate-result",
           "title": "Saving Intermediate Result",
-          "url": "https://www.youtube.com/watch?v=Kv2vvyNJ4UI&list=PLx5yLWqRqsqBSc7ahDpqciwX5HaueBhek",
+          "vimeoVideoId": "478796511",
           "description": "Typically the functions that we define in a real-world application will be having multiple steps for calculating the final result. In this lesson, we'll be learning how to write a multi-step function in Javascript and save the intermediate results using variables.",
           "duration": 634,
           "order": 7,
           "isFree": true,
-          "publishedOn": "2020-11-04"
+          "publishedOn": "2020-11-04",
+          "sourceCode": "https://github.com/learncsintamil/course-notes/tree/main/learn-programming-using-scratch-and-javascript/07-intermediate-result",
+          "slides": "https://docs.google.com/presentation/d/1PuQsPGi1iwNXfmXvTse0OsO2m8b9Zi0ijphqj1tHby0/edit?usp=sharing"
         },
         "feedback-loop": {
           "slug": "feedback-loop",
           "title": "Feedback Loop",
-          "url": "https://www.youtube.com/watch?v=8LPwXi6eyxA&list=PLx5yLWqRqsqBSc7ahDpqciwX5HaueBhek",
+          "vimeoVideoId": "482668508",
           "description": "A typical programming activity involves two activities, exploration and trial-and-error. In this lesson, we'll learn about how we can be more productive while performing these activities using a REPL.",
           "duration": 882,
           "order": 8,
           "isFree": true,
-          "publishedOn": "2020-11-15"
+          "publishedOn": "2020-11-15",
+          "sourceCode": "",
+          "slides": "https://docs.google.com/presentation/d/1_ojmn2ckvKhTDErl-LdC8XNoJ7agMlpWYX_okUEPWdk/edit?usp=sharing"
         },
         "decision-making": {
           "slug": "decision-making",
           "title": "Decision Making",
-          "url": "https://www.youtube.com/watch?v=4Xp7FMH8HHQ&list=PLx5yLWqRqsqBSc7ahDpqciwX5HaueBhek",
+          "vimeoVideoId": "494371516",
           "description": "Decision Making is one of the crucial steps in real-world programming. In this lesson, we are going to learn how to communicate decisions in programming. Then we'll apply it in three different real-life scenarios.",
           "duration": 1793,
           "order": 9,
           "isFree": true,
-          "publishedOn": "2020-12-24"
+          "publishedOn": "2020-12-24",
+          "sourceCode": "https://github.com/learncsintamil/course-notes/tree/main/learn-programming-using-scratch-and-javascript/09-decision-making",
+          "slides": "https://docs.google.com/presentation/d/1RYWxHUUjciM3o_Q1Gt7qqONVKWQXcEeJVq2dyz7pEm4/edit?usp=sharing"
         },
         "logical-operators": {
           "slug": "logical-operators",
           "title": "Logical Operators",
-          "url": "https://www.youtube.com/watch?v=XJL01W6gRmM&list=PLx5yLWqRqsqBSc7ahDpqciwX5HaueBhek",
+          "vimeoVideoId": "494939119",
           "description": "Decision making in real-world programs involves checking multiple conditions. In this lesson, we'll be learning how to use logical operators to implement any kind of boolean conditions.",
           "duration": 1380,
           "order": 10,
           "isFree": true,
-          "publishedOn": "2020-12-27"
+          "publishedOn": "2020-12-27",
+          "sourceCode": "https://github.com/learncsintamil/course-notes/tree/main/learn-programming-using-scratch-and-javascript/10-logical-operators",
+          "slides": "https://docs.google.com/presentation/d/1BQ6xItsn8NR_oxDWxVsOHGbGYBP4U0Ez1dvxcFiSGFc/edit?usp=sharing"
         },
         "assignment-operators-and-constant": {
           "slug": "assignment-operators-and-constant",
           "title": "Assignment Operators & Constant",
-          "url": "https://www.youtube.com/watch?v=sfcN0QtuQhI&list=PLx5yLWqRqsqBSc7ahDpqciwX5HaueBhek",
+          "vimeoVideoId": "495205251",
           "description": "While working with variables, sometimes we may need to change its value after declaration using assignment operators. In this lesson, we'll learn how to do it. We'll also be learning how to prevent changes to a variable using constant.",
           "duration": 956,
           "order": 11,
           "isFree": true,
-          "publishedOn": "2020-12-28"
+          "publishedOn": "2020-12-28",
+          "sourceCode": "https://github.com/learncsintamil/course-notes/tree/main/learn-programming-using-scratch-and-javascript/11-constant-and-assignment-operators",
+          "slides": "https://docs.google.com/presentation/d/1GsOv7ELQrYirMkml0_JgZ5p7-S88FpP4akK5kBafrEE/edit?usp=sharing"
         },
         "iteration": {
           "slug": "iteration",
           "title": "Iteration",
-          "url": "https://www.youtube.com/watch?v=gCbbDoIb3NI&list=PLx5yLWqRqsqBSc7ahDpqciwX5HaueBhek",
+          "vimeoVideoId": "495206760",
           "description": "Iteration is one of the important control flow in programming. In this lesson, we will be starting with how it is associated with our lives and then dive deep into how to perform iterations in Javascript. We'll also be learning four critical steps in iteration and how it can be used across three different iteration constructs.",
           "duration": 1424,
           "order": 12,
           "isFree": true,
-          "publishedOn": "2020-12-29"
+          "publishedOn": "2020-12-29",
+          "sourceCode": "https://github.com/learncsintamil/course-notes/tree/main/learn-programming-using-scratch-and-javascript/12-iteration",
+          "slides": "https://docs.google.com/presentation/d/11zT4UT0I4fa0QgwHoqp_t7fT8NCQv8FOkl65PSFbZ2Q/edit?usp=sharing"
         },
         "array": {
           "slug": "array",
           "title": "Array",
-          "url": "https://www.youtube.com/watch?v=9XQRZJKDBHM&list=PLx5yLWqRqsqBSc7ahDpqciwX5HaueBhek",
+          "vimeoVideoId": "495505220",
           "description": "In a typical real-world program, more often, we have to deal with a list of something. In this lesson, we are going to learn how to use Array to represent the list. Then we'll be seeing it in action with his close friend, Iteration.",
           "duration": 1571,
           "order": 13,
           "isFree": true,
-          "publishedOn": "2020-12-30"
+          "publishedOn": "2020-12-30",
+          "sourceCode": "https://github.com/learncsintamil/course-notes/tree/main/learn-programming-using-scratch-and-javascript/13-array",
+          "slides": "https://docs.google.com/presentation/d/1S8F8EvOYoUFETiIdJgLuqHhozPAba_0d5SgwNV6vfSg/edit?usp=sharing"
         },
         "iteration-patterns": {
           "slug": "iteration-patterns",
           "title": "Iteration Patterns",
-          "url": "https://www.youtube.com/watch?v=ogPyP9tmac8&list=PLx5yLWqRqsqBSc7ahDpqciwX5HaueBhek",
+          "vimeoVideoId": "495983171",
           "description": "While working with arrays using iteration, you typically use four patterns to solve the problems. In this lesson, we'll learn what they are and how it works.",
           "duration": 1130,
           "order": 14,
           "isFree": true,
-          "publishedOn": "2020-12-31"
+          "publishedOn": "2020-12-31",
+          "sourceCode": "https://github.com/learncsintamil/course-notes/tree/main/learn-programming-using-scratch-and-javascript/14-four-iteration-patterns",
+          "slides": "https://docs.google.com/presentation/d/1IwSr24FCfJHQQrTw9d1ulr8dSc3pSciKZb1NUv_gG90/edit?usp=sharing"
         },
         "breaking-and-ignoring-iteration": {
           "slug": "breaking-and-ignoring-iteration",
           "title": "Breaking and Ignoring Iteration",
-          "url": "https://www.youtube.com/watch?v=ySAobIUFquo&list=PLx5yLWqRqsqBSc7ahDpqciwX5HaueBhek",
+          "vimeoVideoId": "495983266",
           "description": "Sometimes, we may need to stop the iteration in the middle, and some other times, we may need to ignore a particular iteration step. In this lesson, we'll learn how to do it. Then we'll have a look at the other alternative approaches for solving this logic. ",
           "duration": 564,
           "order": 15,
           "isFree": true,
-          "publishedOn": "2020-12-31"
+          "publishedOn": "2020-12-31",
+          "sourceCode": "https://github.com/learncsintamil/course-notes/tree/main/learn-programming-using-scratch-and-javascript/15-break-and-continue",
+          "slides": "https://docs.google.com/presentation/d/1BLLKARPRz_nL7B7XIIkxvvGisbiNZGX11Mh3VINxyKo/edit?usp=sharing"
         }
       }
     }

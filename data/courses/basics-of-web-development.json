@@ -19,12 +19,11 @@
   "prerequisites": [
     "Basic computer operating skills"
   ],
-  "startUrl": "https://www.youtube.com/watch?v=YbjAMdHMhw4&list=PLx5yLWqRqsqCOLsTbaHiD1p096Ynnttuy",
   "lessons": {
     "mental-model": {
       "slug": "mental-model",
       "title": "Mental Model",
-      "url": "https://www.youtube.com/watch?v=YbjAMdHMhw4&list=PLx5yLWqRqsqCOLsTbaHiD1p096Ynnttuy",
+      "vimeoVideoId": "482653753",
       "description": "In this lesson, we will be learning about a mental model which will help you to learn website development efficiently.",
       "duration": 453,
       "order" : 1,
@@ -35,7 +34,7 @@
     "developing-and-publishing-your-first-website": {
       "slug": "developing-and-publishing-your-first-website",
       "title": "Developing And Publishing Your First Website",
-      "url": "https://www.youtube.com/watch?v=HGjIaarRVi0&list=PLx5yLWqRqsqCOLsTbaHiD1p096Ynnttuy",
+      "vimeoVideoId": "482660804",
       "description": "In this lesson, we will be learning the basics of the HTML syntax and how to create a simple webpage using it. Then we'll be publishing this website on the Internet using Netlify.",
       "duration": 2549,
       "order": 2,
@@ -46,7 +45,7 @@
     "basics-of-css": {
       "slug": "basics-of-css",
       "title": "Basics of CSS",
-      "url": "https://www.youtube.com/watch?v=YwPrAnh65Wk&list=PLx5yLWqRqsqCOLsTbaHiD1p096Ynnttuy",
+      "vimeoVideoId": "482661416",
       "description": "In this lesson, we will be learning the basics of the CSS and how to make a webpage beautiful.",
       "duration": 1582,
       "isFree": true,

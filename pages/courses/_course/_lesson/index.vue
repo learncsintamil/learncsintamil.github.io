@@ -1,12 +1,14 @@
 <template>
   <div class="pb-24 mt-6 sm:mt-10 max-w-screen-lg mx-auto">
     <div class="grid grid-cols-1 lg:grid-cols-3 lg:gap-1">
-      <div class="lg:col-span-2 rounded-md shadow-md">
-        <video
-          controls
-          class="h-72 lg:h-128 w-full video-js vjs-default-skin vjs-big-play-centered shadow-md"
-          ref="videoPlayer"
-        ></video>
+      <div class="lg:col-span-2">
+        <client-only>
+            <vimeo-player class="vimeo-player h-72 lg:h-128" 
+              ref="player" 
+              @ready="onReady"
+              @ended="onEnd"
+              :video-id="lesson.vimeoVideoId" :autoplay="autoplay"/>
+        </client-only>
       </div>
       <div class="lg:col-span-1 bg-white mt-2 lg:mt-0 shadow-xl">
         <div class="flex bg-brown-dark px-4 py-4 shadow-inner">
@@ -58,22 +60,24 @@
 </template>
 
 <script>
-import 'video.js/dist/video-js.css'
-import videojs from 'video.js'
-import videojsYoutube from 'videojs-youtube'
 const getCourse = (title) =>
   import(`~/data/courses/${title}.json`).then((m) => m)
 
 export default {
   computed: {
-    videojsDataSetup() {
-      return `{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "${this.lesson.url}"}] }`
-    },
     nextLessonUrl() {
       return this.lesson.nextLessonSlug ? this.lessonUrl(this.lesson.nextLessonSlug) + "?autoplay=true" : null;
     }
   },
   methods: {
+    onReady() {
+      if (this.$route.query.autoplay == 'true') {
+        this.$refs.player.play();
+      }
+    },
+    onEnd() {
+      this.$router.replace({ path: this.nextLessonUrl });
+    },
     lessonUrl(lessonSlug) {
       return `/courses/${this.course.slug}/${lessonSlug}`
     },
@@ -92,41 +96,15 @@ export default {
     }
   },
   mounted() {
-    const options = {
-      techOrder: ['youtube'],
-      playbackRates: [1, 1.5, 2],
-      sources: [{ type: 'video/youtube', src: this.lesson.url }],
-    }
-    if (this.$refs.videoPlayer) {
-      this.player = videojs(this.$refs.videoPlayer, options);
-      if (this.$route.query.autoplay == 'true') {
-        this.player.ready(() => {
-          this.$nextTick(() => {
-              this.player.play();
-          });
-        }, false);
-      }
-      const self = this;
-      this.player.on('ended', function() {
-        const nextUrl = self.nextLessonUrl;
-        if (nextUrl) {
-          self.$router.replace({ path: nextUrl });
-        }
-      });
-    }
+    debugger;
     this.$refs.lessonsContainer.scrollTop = this.$refs[this.lesson.slug][0].$el.scrollHeight * (this.lesson.order - 2);
   },
-
-  data() {
-    return {
-      player: null
-    }
-  },
-  async asyncData({ params }) {
+  async asyncData({ params, query }) {
     try {
       const course = await getCourse(params.course)
       const lesson = course.lessons[params.lesson]
-      return { course: course, lesson: lesson }
+      const autoplay = false;
+      return { course, lesson, autoplay }
     } catch {
       return { course: null }
     }
