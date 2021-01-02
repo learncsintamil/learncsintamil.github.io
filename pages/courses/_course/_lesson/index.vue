@@ -2,6 +2,7 @@
   <div class="pb-24 mt-6 sm:mt-10 max-w-screen-lg mx-auto">
     <div class="grid grid-cols-1 lg:grid-cols-3 lg:gap-1">
       <div class="lg:col-span-2">
+        <p class="text-center" v-html="loadingText"></p>
         <client-only>
             <vimeo-player class="vimeo-player h-72 lg:h-128" 
               ref="player" 
@@ -9,6 +10,7 @@
               @ended="onEnd"
               :video-id="lesson.vimeoVideoId" :autoplay="autoplay"/>
         </client-only>
+        <p class="text-center">&nbsp;</p>
       </div>
       <div class="lg:col-span-1 bg-white mt-2 lg:mt-0 shadow-xl">
         <div class="flex bg-brown-dark px-4 py-4 shadow-inner">
@@ -67,10 +69,14 @@ export default {
   computed: {
     nextLessonUrl() {
       return this.lesson.nextLessonSlug ? this.lessonUrl(this.lesson.nextLessonSlug) + "?autoplay=true" : null;
+    },
+    loadingText() {
+      return this.isPlayerReady ? "&nbsp;" : "Loading video...";
     }
   },
   methods: {
     onReady() {
+      this.isPlayerReady = true;
       if (this.$route.query.autoplay == 'true') {
         this.$refs.player.play();
       }
@@ -104,7 +110,8 @@ export default {
       const course = await getCourse(params.course)
       const lesson = course.lessons[params.lesson]
       const autoplay = false;
-      return { course, lesson, autoplay }
+      const isPlayerReady = false;
+      return { course, lesson, autoplay, isPlayerReady }
     } catch {
       return { course: null }
     }
