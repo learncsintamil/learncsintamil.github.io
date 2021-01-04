@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1609585908010,
+  "generatedAt": 1609744130153,
   "data": {
     "a-career-guide-to-software-development": {
       "slug": "a-career-guide-to-software-development",
@@ -188,8 +188,8 @@
       "lastUpdatedOn": "2020-09-07",
       "isFree": true,
       "level": "Beginner",
-      "duration": 17256,
-      "lessonsCount": 15,
+      "duration": 18781,
+      "lessonsCount": 16,
       "bannerImagePath": "/logos/courses/learn-programming-using-scratch-and-javascript.png",
       "learningOutcomes": [
         "What is Programming?",
@@ -384,6 +384,18 @@
           "publishedOn": "2020-12-31",
           "sourceCode": "https://github.com/learncsintamil/course-notes/tree/main/learn-programming-using-scratch-and-javascript/15-break-and-continue",
           "slides": "https://docs.google.com/presentation/d/1BLLKARPRz_nL7B7XIIkxvvGisbiNZGX11Mh3VINxyKo/edit?usp=sharing"
+        },
+        "divide-and-conquer": {
+          "slug": "divide-and-conquer",
+          "title": "Divide & Conquer",
+          "vimeoVideoId": "496789737",
+          "description": "In this lesson, we will learn one of the compelling techniques in software development that can help you solve different kinds of problems using programming. The way you write software will never be the same after this lesson! ",
+          "duration": 1525,
+          "order": 16,
+          "isFree": true,
+          "publishedOn": "2021-01-04",
+          "sourceCode": "https://github.com/learncsintamil/course-notes/tree/main/learn-programming-using-scratch-and-javascript/16-divide-and-conquer",
+          "slides": "https://docs.google.com/presentation/d/1-wpRdwVEz2NLjDjPrPVENFz3Fpirk8lYT0gz7wNfbLQ/edit?usp=sharing"
         }
       }
     }
