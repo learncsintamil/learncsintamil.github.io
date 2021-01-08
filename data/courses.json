@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1609744130153,
+  "generatedAt": 1610077223303,
   "data": {
     "a-career-guide-to-software-development": {
       "slug": "a-career-guide-to-software-development",
@@ -188,8 +188,8 @@
       "lastUpdatedOn": "2020-09-07",
       "isFree": true,
       "level": "Beginner",
-      "duration": 18781,
-      "lessonsCount": 16,
+      "duration": 21196,
+      "lessonsCount": 18,
       "bannerImagePath": "/logos/courses/learn-programming-using-scratch-and-javascript.png",
       "learningOutcomes": [
         "What is Programming?",
@@ -396,6 +396,28 @@
           "publishedOn": "2021-01-04",
           "sourceCode": "https://github.com/learncsintamil/course-notes/tree/main/learn-programming-using-scratch-and-javascript/16-divide-and-conquer",
           "slides": "https://docs.google.com/presentation/d/1-wpRdwVEz2NLjDjPrPVENFz3Fpirk8lYT0gz7wNfbLQ/edit?usp=sharing"
+        },
+        "specific-vs-generic-part-1": {
+          "slug": "specific-vs-generic-part-1",
+          "title": "Specific vs Generic - Part 1",
+          "vimeoVideoId": "498206269",
+          "description": "Programming often involves working with abstractions and recognizing patterns in the code. This lesson will revisit the examples that we saw in the previous lessons and experience the patterns and abstractions. It will make you think, and programming is all about that!",
+          "duration": 1247,
+          "order": 17,
+          "isFree": true,
+          "publishedOn": "2021-01-08",
+          "slides": "https://docs.google.com/presentation/d/17iR0nzWKe1w2TgwOpa_1fPN8xSqWn-O4oBwdPxZst5k/edit?usp=sharing"
+        },
+        "specific-vs-generic-part-2": {
+          "slug": "specific-vs-generic-part-2",
+          "title": "Specific vs Generic - Part 2",
+          "vimeoVideoId": "498206645",
+          "description": "Programming often involves working with abstractions and recognizing patterns in the code. This lesson will revisit the examples that we saw in the previous lessons and experience the patterns and abstractions. It will make you think, and programming is all about that!",
+          "duration": 1168,
+          "order": 18,
+          "isFree": true,
+          "publishedOn": "2021-01-08",
+          "slides": "https://docs.google.com/presentation/d/17iR0nzWKe1w2TgwOpa_1fPN8xSqWn-O4oBwdPxZst5k/edit?usp=sharing"
         }
       }
     }
