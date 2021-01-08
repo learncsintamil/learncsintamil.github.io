@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1610077223303,
+  "generatedAt": 1610077621114,
   "data": {
     "a-career-guide-to-software-development": {
       "slug": "a-career-guide-to-software-development",
@@ -401,22 +401,24 @@
           "slug": "specific-vs-generic-part-1",
           "title": "Specific vs Generic - Part 1",
           "vimeoVideoId": "498206269",
-          "description": "Programming often involves working with abstractions and recognizing patterns in the code. This lesson will revisit the examples that we saw in the previous lessons and experience the patterns and abstractions. It will make you think, and programming is all about that!",
+          "description": "Programming is not just about learning syntax. It often involves working with abstractions and recognizing patterns in the code. This lesson will revisit the examples that we saw in the previous lessons and experience the patterns and abstractions. It will make you think, and programming is all about that!",
           "duration": 1247,
           "order": 17,
           "isFree": true,
           "publishedOn": "2021-01-08",
+          "sourceCode": "https://github.com/learncsintamil/course-notes/tree/main/learn-programming-using-scratch-and-javascript/18-specific-vs-generic-part-ii",
           "slides": "https://docs.google.com/presentation/d/17iR0nzWKe1w2TgwOpa_1fPN8xSqWn-O4oBwdPxZst5k/edit?usp=sharing"
         },
         "specific-vs-generic-part-2": {
           "slug": "specific-vs-generic-part-2",
           "title": "Specific vs Generic - Part 2",
           "vimeoVideoId": "498206645",
-          "description": "Programming often involves working with abstractions and recognizing patterns in the code. This lesson will revisit the examples that we saw in the previous lessons and experience the patterns and abstractions. It will make you think, and programming is all about that!",
+          "description": "Programming is not just about learning syntax. It often involves working with abstractions and recognizing patterns in the code. This lesson will revisit the examples that we saw in the previous lessons and experience the patterns and abstractions. It will make you think, and programming is all about that!",
           "duration": 1168,
           "order": 18,
           "isFree": true,
           "publishedOn": "2021-01-08",
+          "sourceCode": "https://github.com/learncsintamil/course-notes/tree/main/learn-programming-using-scratch-and-javascript/18-specific-vs-generic-part-ii",
           "slides": "https://docs.google.com/presentation/d/17iR0nzWKe1w2TgwOpa_1fPN8xSqWn-O4oBwdPxZst5k/edit?usp=sharing"
         }
       }
