@@ -27,13 +27,7 @@ export default {
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap'},
       { rel: 'stylesheet', href: 'https://rsms.me/inter/inter.css'}
     ],
-    script:[
-      {
-        hid:"tawk.to",
-        src: process.env.NODE_ENV === 'production' ? "https://embed.tawk.to/5f4f7cd1f0e7167d000ccdf2/default" : "",
-        defer: true
-      }
-     ]
+    script:[]
   },
   /*
   ** Global CSS
