@@ -57,6 +57,16 @@
         <a :href="lesson.sourceCode" v-if="lesson.sourceCode" target="_blank" class="underline mr-4">Source Code</a>
         <a :href="lesson.slides" v-if="lesson.slides" target="_blank" class="underline">Slides </a>
       </div>
+      <div class="mt-4">
+        <script src="https://utteranc.es/client.js"
+          repo="learncsintamil/comments"
+          issue-term="pathname"
+          label="utterance"
+          theme="boxy-light"
+          crossorigin="anonymous"
+          async>
+        </script>
+      </div>
     </div>
   </div>
 </template>
