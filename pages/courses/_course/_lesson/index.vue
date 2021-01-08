@@ -64,6 +64,7 @@
           label="utterance"
           theme="boxy-light"
           crossorigin="anonymous"
+          type="application/javascript"
           async>
         </script>
       </div>
