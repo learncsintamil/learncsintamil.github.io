@@ -2,7 +2,7 @@
   <a
     :href="url"
     target="_blank"
-    class="ml-8 text-gray-850 hover:text-indigo-650"
+    class=" text-gray-850 hover:text-indigo-650"
   >
     <span class="sr-only">Twitter</span>
     <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">

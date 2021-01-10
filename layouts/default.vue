@@ -36,6 +36,7 @@
           </div>
           <div class="hidden md:flex md:space-x-10">
             <nuxt-link to="/courses/" class="font-medium py-2 link" :class="{'border-b-2 border-indigo-750' : isCourses}">Courses</nuxt-link>
+            <nuxt-link to="/about-us" class="font-medium py-2 link" :class="{'border-b-2 border-indigo-750' : isAboutUs}">About Me</nuxt-link>
           </div>
         </nav>
       </header>
@@ -84,6 +85,7 @@
               </div>
               <div class="px-5 py-8">
                 <p class="font-medium link px-3 py-2" :class="{ 'border-l-4 border-indigo-750 bg-indigo-50' : isCourses}" @click="redirect('/courses')">Courses</p>
+                <p class="font-medium link px-3 py-2" :class="{ 'border-l-4 border-indigo-750 bg-indigo-50' : isAboutUs}" @click="redirect('/about-us')">About Me</p>
               </div>
             </div>
           </div>
@@ -109,6 +111,9 @@ export default {
     isHomePage() {
       return this.$route.name === 'index';
     },
+    isAboutUs() {
+      return this.$route.name === 'about-us';
+    },
     isCourses() {
       return this.$route.name === 'courses' || this.$route.name === 'courses-title' || this.$route.name === 'courses-course-lesson';
     }
@@ -120,6 +125,7 @@ export default {
     redirect(route) {
       this.showDrawer = false;
       this.$router.push(route);
+      return false;
     }
   },
   data() {

@@ -65,7 +65,7 @@
           <div class="mx-3"></div>
           <div class="flex flex-row mt-6 sm:mt-0 self-end sm:ml-64">
             <FacebookIcon url="#"></FacebookIcon>
-            <TwitterIcon url="#"></TwitterIcon>
+            <TwitterIcon class="ml-8" url="#"></TwitterIcon>
           </div>
         </div>
       </div>
