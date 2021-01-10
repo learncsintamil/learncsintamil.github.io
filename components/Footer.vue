@@ -12,10 +12,11 @@
       </div>
       <div class="md:flex md:items-center md:justify-between">
         <div class="flex justify-center md:order-2">
+          
           <a
-            href="https://www.youtube.com/channel/UC1_tagYKJEG8cB_ORkoZACQ"
+            href="https://www.youtube.com/learncsintamil"
             target="_blank"
-            class="text-gray-850 hover:text-indigo-650"
+            class="text-gray-850 hover:text-indigo-650 ml-8"
           >
             <span class="sr-only">Youtube</span>
             <svg
@@ -33,6 +34,7 @@
               <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" />
             </svg>
           </a>
+          <LinkedIn class="ml-8" url="https://www.linkedin.com/company/learncsintamil"></LinkedIn>
           <FacebookIcon url="https://www.facebook.com/learncsintamil"></FacebookIcon>
           <a
             href="https://www.instagram.com/learncsintamil"
@@ -48,7 +50,7 @@
               />
             </svg>
           </a>
-          <Twitter url="https://www.twitter.com/learncsintamil"></Twitter>
+          <Twitter class="ml-8" url="https://www.twitter.com/learncsintamil"></Twitter>
           <a
             href="https://www.github.com/learncsintamil"
             target="_blank"
@@ -67,7 +69,7 @@
         <div class="mt-8 md:mt-0 md:order-1">
           <p
             class="text-center text-sm leading-6 text-gray-850"
-          >&copy; 2020 Learn CS in Tamil. All rights reserved.</p>
+          >&copy; 2021 Learn CS in Tamil. All rights reserved.</p>
         </div>
       </div>
     </div>
@@ -76,6 +78,7 @@
 
 <script>
 import TwitterIcon from '../components/icons/Twitter'
+import LinkedInIcon from '../components/icons/LinkedIn'
 import FacebookIcon from '../components/icons/Facebook'
 export default {
   components: { TwitterIcon, FacebookIcon },

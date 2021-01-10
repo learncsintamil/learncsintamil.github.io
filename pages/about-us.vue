@@ -21,6 +21,10 @@
       <p>
         I have worked with more than <span class="font-semibold">14 clients</span> and developed <span class="font-semibold">20+ software products</span> using <span class="font-semibold">ten different programming languages</span>. Clojure, Haskell & F# are some of my favorites.
       </p>
+      <p>I have <span class="font-semibold">written two books</span>, <a href="https://www.demystifyfp.com/FsApplied/" target="_blank" class="underline link">F# Applied I</a> & <a href="https://www.demystifyfp.com/FsApplied2/" target="_blank" class="underline link">F# Applied II</a>. Both are practical guides for web development using functional programming principles in F#.</p>
+      
+      <p>I am working on <a href="https://www.graphqlize.org" class="link underline">GraphQLize</a>, an open-source JVM library for developing GraphQL API instantly from Postgres and MySQL databases.</p>
+      
       <div class="md:flex md:items-center md:justify-between pt-4">
         <div class="flex justify-center md:order-2">
           <LinkedIn class="ml-0" url="https://www.linkedin.com/in/tamizhvendan"></LinkedIn>
