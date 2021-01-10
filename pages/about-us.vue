@@ -11,7 +11,7 @@
       </p>
 
       <p>
-        I started my programming journey at the age of 12, and the passion has not left me since then. I am working in the IT industry since 2009. I have a wealth of experience in developing custom software solutions. 
+        I started my programming journey at the age of 12, and the passion has not left me since then. I am working in the IT industry since 2009. I have a wealth of experience in solving complex problems using different technologies and developing custom software solutions.
       </p>
 
       <p>
@@ -23,7 +23,7 @@
       </p>
       <p>I have <span class="font-semibold">written two books</span>, <a href="https://www.demystifyfp.com/FsApplied/" target="_blank" class="underline link">F# Applied I</a> & <a href="https://www.demystifyfp.com/FsApplied2/" target="_blank" class="underline link">F# Applied II</a>. Both are practical guides for web development using functional programming principles in F#.</p>
       
-      <p>I am working on <a href="https://www.graphqlize.org" class="link underline">GraphQLize</a>, an open-source JVM library for developing GraphQL API instantly from Postgres and MySQL databases.</p>
+      <p>I am an active <a href="https://www.github.com/tamizhvendan" target="_blank" class="link underline">open-source developer</a>. I have given conference talks in <a href="https://confengine.com/user/tamizhvendan-s" target="_blank" class="link underline">Functional Conf</a> (India), <a href="https://skillsmatter.com/skillscasts/8900-let-s-create-minisuave" target="_blank" class="link underline">Skills Matter</a> (London) & <a href="https://channel9.msdn.com/Events/FSharp-Events/fsharpConf-2018/02" target="_blank" class="link underline">F# Conf</a> (Microsoft).</p>
       
       <div class="md:flex md:items-center md:justify-between pt-4">
         <div class="flex justify-center md:order-2">
