@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="max-w-screen-md mx-auto my-8 py-8 sm:py-12 flex items-center flex-col sm:flex-row card-container bg-white rounded-xl sm:px-12">
-      <img class="h-28 w-28 sm:h-56 sm:w-56 rounded-full card-container" src="profile_picture.JPG" alt="Tamizhvendan's Picture">
+      <img class="h-28 w-28 sm:h-56 sm:w-56 rounded-full card-container" src="/about-me/profile.JPG" alt="Tamizhvendan's Picture">
       <div class="px-4 sm:px-0 mt-4 sm:mt-0 sm:ml-14 space-y-3">
         <p>
           Hi! 👋
@@ -51,22 +51,22 @@
     <div class="grid grid-cols-1 md:grid-cols-2 mt-12 mb-16 gap-4">
 
       <Testimonial 
-        avatarUrl="testimonials/john.jpeg"
+        avatarUrl="/about-me/testimonials/john.jpeg"
         author="John Zhang"
         designation="Chief Engineer, Golden Land"
         content="Tamizh is a great thought leader on the technical front including new technologies, application architectures and development processes. He is always hungry of new skills and knowledge and constantly looks for opportunities to improve himself. I consider him a very valuable player in the field of software development and highly recommend him with no reservation."/>
       <Testimonial 
-        avatarUrl="testimonials/sivagurunathan.jpeg"
-        author="Sivagurunathan"
-        designation="IT Business Analyst, Royal Sundaram"
-        content='I was amazed by his professional approach and his attitude to give the best possible solution. His ability to understand both the Technical and Business side makes him my "Goto Guy" for unconventional solutions.'/>
-      <Testimonial 
-        avatarUrl="testimonials/balaji.jpeg"
+        avatarUrl="/about-me/testimonials/balaji.jpeg"
         author="Balaji"
         designation="Tech Lead, Altimetrik"
         content="After 1 month of Self Learning, Tamizh's Clojure Track was very helpful in connecting the dots. He is knowledgable and explained concepts with real-time code examples. I deeply appreciate his patience and mild manner in dealing with questions from the audience."/>
       <Testimonial 
-        avatarUrl="testimonials/josh.jpeg"
+        avatarUrl="/about-me/testimonials/sivagurunathan.jpeg"
+        author="Sivagurunathan"
+        designation="IT Business Analyst, Royal Sundaram"
+        content='I was amazed by his professional approach and his attitude to give the best possible solution. His ability to understand both the Technical and Business side makes him my "Goto Guy" for unconventional solutions.'/>
+      <Testimonial 
+        avatarUrl="/about-me/testimonials/josh.jpeg"
         author="Josh Kenney"
         designation="Engineering Manager, Home Depot"
         content="Tamizh is a very talented and skilled developer who I had the pleasure to work with. He showed the ability to work full stack from UI to backend and was always able to execute at a high level. Any organization would benefit from having Tamizh on their team."/>
