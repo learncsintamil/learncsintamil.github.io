@@ -1,7 +1,7 @@
 <template>
   <footer :class="{'bg-orange-350' : isHomePage, 'bg-orange-50' : !isHomePage}">
     <div class="max-w-screen-xl pb-12 mx-auto">
-      <div v-if="!isHomePage" class="py-8 border-b border-brown-light mb-12">
+      <div class="py-8 border-b border-brown-light mb-12">
         <h4
           class="text-sm leading-5 font-semibold tracking-wider uppercase"
         >Want notifications about new videos?</h4>
