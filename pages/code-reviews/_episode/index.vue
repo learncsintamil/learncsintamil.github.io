@@ -50,7 +50,9 @@ export default {
     seek(secondsToSeek) {
       const player = this.$refs.plyr.player;
       player.pause();
+      player.muted = true;
       player.currentTime = secondsToSeek;
+      player.muted = false;
       player.play();
     } 
   },
