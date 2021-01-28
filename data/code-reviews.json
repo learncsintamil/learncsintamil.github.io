@@ -1,0 +1,70 @@
+{
+  "data": {
+    "episode-01-weather-app" : {
+      "slug" : "episode-01-weather-app",
+      "duration": 1779,
+      "title": "Episode #1 - Weather App",
+      "bannerImagePath": "/logos/code-reviews/episode-1-weather-app.png",
+      "tags": ["node.js", "express.js", "javascript"],
+      "description" : "In this episode, I will be reviewing a weather app developed in node.js using express.js.",
+      "vimeoVideoId": "505502533",
+      "sourceCode": {
+        "after" : "https://github.com/learncsintamil/episode-01-weather/tree/master",
+        "before" : "https://github.com/learncsintamil/episode-01-weather/tree/initial-version",
+        "changes": "https://github.com/learncsintamil/episode-01-weather/compare/initial-version...learncsintamil:master"
+      },
+      "references": [{
+        "text": "Prettier Extension",
+        "href": "https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode"
+      },{
+        "text": "Code Spell Checker",
+        "href": "https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker"
+      }],
+      "topics": [{
+        "secondsToSeek": 0,
+        "timestamp": "00:00",
+        "title": "Introduction of the application"
+      },{
+        "secondsToSeek": 138,
+        "timestamp": "02:18",
+        "title": "Readme file"
+      },{
+        "secondsToSeek": 271,
+        "timestamp": "04:31",
+        "title": "Code Formatting"
+      },{
+        "secondsToSeek": 538,
+        "timestamp": "08:58",
+        "title": " Spell Check"
+      },{
+        "secondsToSeek": 662,
+        "timestamp": "11:02",
+        "title": "Naming Convention"
+      },{
+        "secondsToSeek": 752,
+        "timestamp": "12:32",
+        "title": "Storing & Retrieving Secrets"
+      },{
+        "secondsToSeek": 942,
+        "timestamp": "15:42",
+        "title": "String Interpolation"
+      },{
+        "secondsToSeek": 1002,
+        "timestamp": "16:54",
+        "title": "Avoid using else"
+      },{
+        "secondsToSeek": 1129,
+        "timestamp": "18:49",
+        "title": "Avoiding Callback Hell using async & await"
+      },{
+        "secondsToSeek": 1376,
+        "timestamp": "22:56",
+        "title": "Loose Coupling - Separating Business & View Logic"
+      },{
+        "secondsToSeek": 1641,
+        "timestamp": "27:21",
+        "title": " Error Handling - What you should not do"
+      }]
+    }
+  }
+}

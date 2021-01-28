@@ -42,6 +42,7 @@ export default {
   plugins: [
     '~/plugins/filters.js',
     '~/plugins/vimeo.js',
+    { src: '~/plugins/vue-plyr', mode: 'client' }
   ],
   /*
   ** Auto import components
