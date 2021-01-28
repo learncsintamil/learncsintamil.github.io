@@ -1,10 +1,18 @@
 <template>
   <div class="pb-24 -mt-4 sm:mt-10 flex flex-col items-center space-y-4">
-    <div class="shadow-md mt-8 sm:mt-0 h-full w-full sm:w-240 card-container">
+    <!-- <div class="shadow-md mt-8 sm:mt-0 h-full w-full sm:w-240 card-container">
       <vue-plyr ref="plyr">
         <div data-plyr-provider="vimeo" v-bind:data-plyr-embed-id="episode.vimeoVideoId"></div>
       </vue-plyr>
-    </div>
+    </div> -->
+    <p class="text-center" v-html="loadingText"></p>
+    <client-only>
+      <vimeo-player class="vimeo-player h-60 lg:h-128 w-full card-container" 
+        ref="player" 
+        @ready="onReady"
+        @ended="onEnd"
+        :video-id="episode.vimeoVideoId" />
+    </client-only>
     <div class="space-y-4 text-lg mx-auto max-w-2xl">
       <p v-text="episode.description"></p>
       <h3 class="font-serif text-xl">Source Code</h3>
@@ -46,15 +54,26 @@ const getCodeReviewEpisode = (slug) =>
   import(`~/data/code-reviews.json`).then(m => m.data[slug])
 
 export default {
+  computed: {
+    loadingText() {
+      return this.isPlayerReady ? "&nbsp;" : "Loading video...";
+    }
+  },  
   methods : {
     seek(secondsToSeek) {
-      const player = this.$refs.plyr.player;
+      const player = this.$refs.player.player;
       player.pause();
-      player.muted = true;
-      player.currentTime = secondsToSeek;
-      player.muted = false;
-      player.play();
-    } 
+      debugger;
+      player.setCurrentTime(secondsToSeek).then(_ => {
+        player.play()
+      })
+    },
+    onReady() {
+      this.isPlayerReady = true;
+    },
+    onEnd() {
+      this.$router.replace({ path: this.nextLessonUrl });
+    }, 
   },
   head() {
     return {
@@ -72,7 +91,8 @@ export default {
   async asyncData({ params }) {
     try {
       const episode = await getCodeReviewEpisode(params.episode)
-      return { episode }
+      const isPlayerReady = false;
+      return { episode, isPlayerReady }
     } catch {
       return { course: null }
     }
