@@ -35,9 +35,9 @@
             </div>
           </div>
           <div class="hidden md:flex md:space-x-10">
-            <nuxt-link to="/courses" class="font-medium py-2 link" :class="{'border-b-2 border-indigo-750' : isCourses}">Courses</nuxt-link>
-            <nuxt-link to="/code-reviews" class="font-medium py-2 link" :class="{'border-b-2 border-indigo-750' : isCodeReviews}">Code Reviews</nuxt-link>
-            <nuxt-link to="/about-us" class="font-medium py-2 link" :class="{'border-b-2 border-indigo-750' : isAboutUs}">About Me</nuxt-link>
+            <nuxt-link to="/courses" class="font-medium text-lg py-2 link" :class="{'border-b-2 border-indigo-750' : isCourses}">Courses</nuxt-link>
+            <nuxt-link to="/code-reviews" class="font-medium text-lg py-2 link" :class="{'border-b-2 border-indigo-750' : isCodeReviews}">Code Reviews</nuxt-link>
+            <nuxt-link to="/about-us" class="font-medium text-lg py-2 link" :class="{'border-b-2 border-indigo-750' : isAboutUs}">About Me</nuxt-link>
           </div>
         </nav>
       </header>

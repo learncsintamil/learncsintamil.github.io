@@ -2,7 +2,7 @@
   <div>
     <div class="max-w-screen-md mx-auto my-8 py-8 sm:py-12 flex items-center flex-col sm:flex-row card-container bg-white rounded-xl sm:px-12">
       <img class="h-28 w-28 sm:h-56 sm:w-56 rounded-full card-container" src="/about-me/profile.JPG" alt="Tamizhvendan's Picture">
-      <div class="px-4 sm:px-0 mt-4 sm:mt-0 sm:ml-14 space-y-3">
+      <div class="px-4 sm:px-0 mt-4 sm:mt-0 sm:ml-14 space-y-3 text-lg">
         <p>
           Hi! 👋
         </p>
@@ -20,7 +20,7 @@
         </p>
   
         <p>
-          I have worked with more than <span class="font-semibold">14 clients</span> and developed <span class="font-semibold">20+ software products</span> using <span class="font-semibold">ten different programming languages</span>. Clojure, Haskell & F# are some of my favorites.
+          I have worked with more than <span class="font-semibold">14 clients</span> and developed <span class="font-semibold">20+ software products</span> using <span class="font-semibold">eleven different programming languages</span>. Clojure, Haskell & F# are some of my favorites.
         </p>
         <p>I have <span class="font-semibold">written two books</span>, <a href="https://www.demystifyfp.com/FsApplied/" target="_blank" class="underline link">F# Applied I</a> & <a href="https://www.demystifyfp.com/FsApplied2/" target="_blank" class="underline link">F# Applied II</a>. Both are practical guides for web development using functional programming principles in F#.</p>
         

@@ -11,7 +11,7 @@
       <div class="lg:col-span-6 lg:p-6 flex flex-col">
         <div class="flex flex-col sm:flex-row">
           <p
-            class="font-serif text-center sm:text-left text-gray-850 text-xl sm:text-4xl font-extrabold mt-3 sm:mt-0"
+            class=" text-center sm:text-left text-gray-850 text-xl sm:text-4xl mt-3 sm:mt-0"
           >{{course.title}}</p>
         </div>
         <CourseSummary
@@ -20,11 +20,11 @@
           :duration="course.duration"
           :level="course.level"
         ></CourseSummary>
-        <p class="hidden lg:block mt-6">{{course.description}}</p>
+        <p class="mt-3 md:mt-6 w-auto md:text-lg">{{course.description}}</p>
         <div class="flex flex-col sm:flex-row sm:justify-between">
           <nuxt-link
             :to="firstLessonPath"
-            class="mt-4 leading-tight uppercase w-full flex items-center justify-center px-8 py-3 border border-transparent font-medium rounded-md text-white bg-indigo-750 hover:bg-indigo-650 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-2 md:px-5 sm:mr-64 text-base"
+            class="mt-4 leading-tight tracking-wider uppercase w-full flex items-center justify-center px-8 py-3 border border-transparent font-medium rounded-md text-white bg-indigo-750 hover:bg-indigo-650 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-2 md:px-5 sm:mr-64 text-base"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -50,10 +50,10 @@
 
     <div class="mt-10 grid grid-cols-1 sm:grid-cols-2 gap-4">
       <div class="sm:flex sm:flex-col sm:items-center">
-        <p class="text-lg sm:text-3xl font-bold font-serif">What you'll learn</p>
+        <p class="text-lg sm:text-3xl">What you'll learn</p>
         <div class="mt-2">
           <CheckListItem
-            class="mt-2"
+            class="mt-2 text-lg"
             :itemText="lo"
             :key="index"
             v-for="(lo,index) in course.learningOutcomes"
@@ -61,10 +61,10 @@
         </div>
       </div>
       <div class="mt-6 sm:mt-0 sm:flex sm:flex-col sm:items-center">
-        <p class="text-lg sm:text-3xl font-bold font-serif">Prerequisites</p>
+        <p class="text-lg sm:text-3xl">Prerequisites</p>
         <div class="mt-2">
           <CheckListItem
-            class="mt-2"
+            class="mt-2 text-lg"
             :itemText="preq"
             :key="index"
             v-for="(preq,index) in course.prerequisites"
@@ -73,7 +73,7 @@
       </div>
     </div>
 
-    <p class="text-center mt-10 text-lg sm:text-3xl font-bold font-serif">Lessons</p>
+    <p class="text-center mt-10 text-lg sm:text-3xl">Lessons</p>
     <div class="flex flex-col items-center">
       <Lesson :lesson="lesson" :key="lesson.slug" v-for="lesson in course.lessons" :courseSlug="course.slug"></Lesson>
     </div>

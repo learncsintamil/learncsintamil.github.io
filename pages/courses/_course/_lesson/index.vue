@@ -51,7 +51,7 @@
       </div>
     </div>
     <div class="mx-auto lg:max-w-3xl mt-6">
-      <p class="text-lg sm:text-3xl font-bold font-serif">{{lesson.title}}</p>
+      <p class="text-xl sm:text-3xl">{{lesson.title}}</p>
       <p class="leading-7 sm:text-lg mt-2">{{lesson.description}}</p>
       <div class="mt-4 link">
         <a :href="lesson.sourceCode" v-if="lesson.sourceCode" target="_blank" class="underline mr-4">Source Code</a>
