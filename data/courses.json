@@ -1,5 +1,5 @@
 {
-  "generatedAt": 1610077621114,
+  "generatedAt": 1614571247063,
   "data": {
     "a-career-guide-to-software-development": {
       "slug": "a-career-guide-to-software-development",
@@ -420,6 +420,45 @@
           "publishedOn": "2021-01-08",
           "sourceCode": "https://github.com/learncsintamil/course-notes/tree/main/learn-programming-using-scratch-and-javascript/18-specific-vs-generic-part-ii",
           "slides": "https://docs.google.com/presentation/d/17iR0nzWKe1w2TgwOpa_1fPN8xSqWn-O4oBwdPxZst5k/edit?usp=sharing"
+        }
+      }
+    },
+    "turn-idea-to-reality": {
+      "slug": "turn-your-software-ideas-to-reality",
+      "title": "Turn Your Software Ideas To Reality",
+      "description": "The art of creating software from scratch is a superpower. But it is often considered as complicated and difficult by many due to lack of exposure. This course aims to democratize this skill and empower you to turn your software idea into reality. Let's experience how a real Software As A Service (SAAS) product unfolds from concept to fact.",
+      "publishedOn": "2021-03-01",
+      "lastUpdatedOn": "2021-03-01",
+      "isFree": true,
+      "level": "Intermediate",
+      "duration": 555,
+      "lessonsCount": 1,
+      "bannerImagePath": "/logos/courses/idea-to-reality-course-logo.png",
+      "learningOutcomes": [
+        "Maker Mindset",
+        "Idea Validation",
+        "Lean Thinking",
+        "Software Design & Architecture",
+        "Multi Tenant Application",
+        "Configuration Driven Application Development"
+      ],
+      "prerequisites": [
+        "Open Mind",
+        "Curiosity",
+        "Basics of Programming",
+        "Basics of Web Development"
+      ],
+      "lessons": {
+        "introduction": {
+          "slug": "introduction",
+          "title": "Introduction",
+          "vimeoVideoId": "517711127",
+          "description": "A thousand-mile journey starts with a single step. This lesson kick-starts our journey and sets the expectation on what lies ahead.",
+          "duration": 555,
+          "order": 1,
+          "isFree": true,
+          "publishedOn": "2021-03-01",
+          "nextLessonSlug": null
         }
       }
     }
