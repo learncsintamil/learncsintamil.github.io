@@ -11,7 +11,7 @@
       <div class="lg:col-span-6 lg:p-6 flex flex-col">
         <div class="flex flex-col sm:flex-row">
           <p
-            class=" text-center sm:text-left text-gray-850 text-xl sm:text-4xl mt-3 sm:mt-0"
+            class=" text-center sm:text-left text-gray-850 text-xl sm:text-4xl mt-3 sm:mt-0 font-semibold"
           >{{course.title}}</p>
         </div>
         <CourseSummary
@@ -50,7 +50,7 @@
 
     <div class="mt-10 grid grid-cols-1 sm:grid-cols-2 gap-4">
       <div class="sm:flex sm:flex-col sm:items-center">
-        <p class="text-lg sm:text-3xl">What you'll learn</p>
+        <p class="text-lg sm:text-3xl font-semibold">What you'll learn</p>
         <div class="mt-2">
           <CheckListItem
             class="mt-2 text-lg"
@@ -61,7 +61,7 @@
         </div>
       </div>
       <div class="mt-6 sm:mt-0 sm:flex sm:flex-col sm:items-center">
-        <p class="text-lg sm:text-3xl">Prerequisites</p>
+        <p class="text-lg sm:text-3xl font-semibold">Prerequisites</p>
         <div class="mt-2">
           <CheckListItem
             class="mt-2 text-lg"
@@ -73,7 +73,7 @@
       </div>
     </div>
 
-    <p class="text-center mt-10 text-lg sm:text-3xl">Lessons</p>
+    <p class="text-center mt-10 text-lg sm:text-3xl font-semibold">Lessons</p>
     <div class="flex flex-col items-center">
       <Lesson :lesson="lesson" :key="lesson.slug" v-for="lesson in course.lessons" :courseSlug="course.slug"></Lesson>
     </div>

@@ -9,7 +9,7 @@
     <div class="flex flex-col ml-6">
       <div class="flex">
         <nuxt-link
-          class="text-xl lg:text-2xl cursor-pointer link"
+          class="text-base lg:text-2xl cursor-pointer link font-semibold"
           :to="lessonPath"
           v-if="lesson.vimeoVideoId"
         >{{lesson.title}}</nuxt-link>

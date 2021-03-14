@@ -6,14 +6,14 @@
     
     <img :src="course.bannerImagePath" class="card-container rounded-xl h-32 w-32 mx-auto" />
     <p
-      class="text-center text-gray-850 text-lg sm:text-2xl mt-6 leading-7"
+      class="text-center text-gray-850 text-lg sm:text-2xl mt-6 leading-7 font-medium"
     >{{course.title}}</p>
     <div>
       <CourseSummary
         :lessonsCount="course.lessonsCount"
         :duration="course.duration"
         :level="course.level"
-        class="mt-2 justify-center"
+        class="mt-2 sm:mt-3 justify-center"
       ></CourseSummary>
     </div>
   </nuxt-link>

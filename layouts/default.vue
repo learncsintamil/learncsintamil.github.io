@@ -35,9 +35,9 @@
             </div>
           </div>
           <div class="hidden md:flex md:space-x-10">
-            <nuxt-link to="/courses" class="font-medium text-lg py-2 link" :class="{'border-b-2 border-indigo-750' : isCourses}">Courses</nuxt-link>
-            <nuxt-link to="/code-reviews" class="font-medium text-lg py-2 link" :class="{'border-b-2 border-indigo-750' : isCodeReviews}">Code Reviews</nuxt-link>
-            <nuxt-link to="/about-us" class="font-medium text-lg py-2 link" :class="{'border-b-2 border-indigo-750' : isAboutUs}">About Me</nuxt-link>
+            <nuxt-link to="/courses" class="text-lg py-2 link" :class="{'border-b-2 border-indigo-750' : isCourses}">Courses</nuxt-link>
+            <nuxt-link to="/code-reviews" class="text-lg py-2 link" :class="{'border-b-2 border-indigo-750' : isCodeReviews}">Code Reviews</nuxt-link>
+            <nuxt-link to="/about-us" class="text-lg py-2 link" :class="{'border-b-2 border-indigo-750' : isAboutUs}">About Me</nuxt-link>
           </div>
         </nav>
       </header>
@@ -84,10 +84,10 @@
                   </button>
                 </div>
               </div>
-              <div class="px-5 py-8">
-                <p class="font-medium link px-3 py-2" :class="{ 'border-l-4 border-indigo-750 bg-indigo-50' : isCourses}" @click="redirect('/courses')">Courses</p>
-                <p class="font-medium link px-3 py-2" :class="{ 'border-l-4 border-indigo-750 bg-indigo-50' : isCodeReviews}" @click="redirect('/code-reviews')">Code Reviews</p>
-                <p class="font-medium link px-3 py-2" :class="{ 'border-l-4 border-indigo-750 bg-indigo-50' : isAboutUs}" @click="redirect('/about-us')">About Me</p>
+              <div class="px-5 py-8 text-xl">
+                <p class="link px-3 py-2" :class="{ 'border-l-4 border-indigo-750 bg-indigo-50' : isCourses}" @click="redirect('/courses')">Courses</p>
+                <p class="link px-3 py-2" :class="{ 'border-l-4 border-indigo-750 bg-indigo-50' : isCodeReviews}" @click="redirect('/code-reviews')">Code Reviews</p>
+                <p class="link px-3 py-2" :class="{ 'border-l-4 border-indigo-750 bg-indigo-50' : isAboutUs}" @click="redirect('/about-us')">About Me</p>
               </div>
             </div>
           </div>

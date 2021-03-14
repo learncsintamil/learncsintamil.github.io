@@ -23,3 +23,17 @@ iframe {
   font-display: swap;
   src: url('~assets/fonts/wotfard-regular-webfont.woff2') format('woff2');
 }
+@font-face {
+  font-family: 'wotfard';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('~assets/fonts/wotfard-medium-webfont.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'wotfard';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('~assets/fonts/wotfard-semibold-webfont.woff2') format('woff2');
+}
