@@ -3,7 +3,9 @@
     "episode-01-weather-app" : {
       "slug" : "episode-01-weather-app",
       "duration": 1779,
-      "title": "Episode #1 - Weather App",
+      "order": 1,
+      "title": "Weather App",
+      "publishedOn": "2021-01-28",
       "bannerImagePath": "/logos/code-reviews/episode-1-weather-app.png",
       "tags": ["node.js", "express.js", "javascript"],
       "description" : "In this episode, I will be reviewing a weather app developed in node.js using express.js.",
