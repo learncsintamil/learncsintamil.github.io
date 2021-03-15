@@ -3,11 +3,11 @@
   "title": "Turn Your Software Ideas To Reality",
   "description": "The art of creating software from scratch is a superpower. But it is often considered as complicated and difficult by many due to lack of exposure. This course aims to democratize this skill and empower you to turn your software idea into reality. Let's experience how a real Software As A Service (SAAS) product unfolds from concept to fact.",
   "publishedOn": "2021-03-01",
-  "lastUpdatedOn": "2021-03-01",
+  "lastUpdatedOn": "2021-03-14",
   "isFree": true,
   "level": "Intermediate",
-  "duration": 555,
-  "lessonsCount": 1,
+  "duration": 1354,
+  "lessonsCount": 2,
   "bannerImagePath": "/logos/courses/idea-to-reality-course-logo.png",
   "learningOutcomes": [
     "Maker Mindset",
@@ -33,7 +33,17 @@
       "order" : 1,
       "isFree": true,
       "publishedOn": "2021-03-01",
-      "nextLessonSlug": null
+      "nextLessonSlug": "product-life-fit"
+    },
+    "product-life-fit": {
+      "slug": "product-life-fit",
+      "title": "Product-Life Fit",
+      "vimeoVideoId": "523449777",
+      "description": "The critical asset to turn your idea into reality is you. It's the clarity in why you are doing what you are doing that determines how well the journey will be.",
+      "duration": 799,
+      "order" : 2,
+      "isFree": true,
+      "publishedOn": "2021-03-14"
     }
   }
 }

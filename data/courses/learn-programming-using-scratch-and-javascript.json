@@ -69,6 +69,7 @@
       "isFree": true,
       "publishedOn": "2020-09-10",
       "sourceCode": "",
+      "nextLessonSlug": "defining-a-function",
       "slides": "https://docs.google.com/presentation/d/1dFYQfymu7kq10HPCSZRH-tdxH1jSMG5pWbtM9vWIAgE/edit?usp=sharing"
     },
     "defining-a-function": {
@@ -81,6 +82,7 @@
       "isFree": true,
       "publishedOn": "2020-10-01",
       "sourceCode": "",
+      "nextLessonSlug": "single-responsibility-principle",
       "slides": "https://docs.google.com/presentation/d/1XN_OY4m-1KVtYum0x2ZfbApub9Sf5vMKExxwRPoqiCo/edit?usp=sharing"
     },
     "single-responsibility-principle": {
@@ -92,6 +94,7 @@
       "order" : 6,
       "isFree": true,
       "publishedOn": "2020-10-26",
+      "nextLessonSlug": "saving-intermediate-result",
       "sourceCode": "https://github.com/learncsintamil/course-notes/tree/main/learn-programming-using-scratch-and-javascript/06-srp",
       "slides": "https://docs.google.com/presentation/d/1UG8wiRO9aplovoZy28GJjKbpz9gbYCDN4-7cmHX-a5c/edit?usp=sharing"
     },
@@ -103,6 +106,7 @@
       "duration": 634,
       "order" : 7,
       "isFree": true,
+      "nextLessonSlug": "feedback-loop",
       "publishedOn": "2020-11-04",
       "sourceCode": "https://github.com/learncsintamil/course-notes/tree/main/learn-programming-using-scratch-and-javascript/07-intermediate-result",
       "slides": "https://docs.google.com/presentation/d/1PuQsPGi1iwNXfmXvTse0OsO2m8b9Zi0ijphqj1tHby0/edit?usp=sharing"
@@ -116,6 +120,7 @@
       "order" : 8,
       "isFree": true,
       "publishedOn": "2020-11-15",
+      "nextLessonSlug": "decision-making",
       "sourceCode": "",
       "slides": "https://docs.google.com/presentation/d/1_ojmn2ckvKhTDErl-LdC8XNoJ7agMlpWYX_okUEPWdk/edit?usp=sharing"
     },
@@ -128,6 +133,7 @@
       "order": 9,
       "isFree": true,
       "publishedOn": "2020-12-24",
+      "nextLessonSlug": "logical-operators",
       "sourceCode": "https://github.com/learncsintamil/course-notes/tree/main/learn-programming-using-scratch-and-javascript/09-decision-making",
       "slides": "https://docs.google.com/presentation/d/1RYWxHUUjciM3o_Q1Gt7qqONVKWQXcEeJVq2dyz7pEm4/edit?usp=sharing"
     },
@@ -140,6 +146,7 @@
       "order": 10,
       "isFree": true,
       "publishedOn": "2020-12-27",
+      "nextLessonSlug": "assignment-operators-and-constant",
       "sourceCode": "https://github.com/learncsintamil/course-notes/tree/main/learn-programming-using-scratch-and-javascript/10-logical-operators",
       "slides": "https://docs.google.com/presentation/d/1BQ6xItsn8NR_oxDWxVsOHGbGYBP4U0Ez1dvxcFiSGFc/edit?usp=sharing"
     },
@@ -152,6 +159,7 @@
       "order": 11,
       "isFree": true,
       "publishedOn": "2020-12-28",
+      "nextLessonSlug": "iteration",
       "sourceCode": "https://github.com/learncsintamil/course-notes/tree/main/learn-programming-using-scratch-and-javascript/11-constant-and-assignment-operators",
       "slides": "https://docs.google.com/presentation/d/1GsOv7ELQrYirMkml0_JgZ5p7-S88FpP4akK5kBafrEE/edit?usp=sharing"
     },
@@ -164,6 +172,7 @@
       "order": 12,
       "isFree": true,
       "publishedOn": "2020-12-29",
+      "nextLessonSlug": "array",
       "sourceCode": "https://github.com/learncsintamil/course-notes/tree/main/learn-programming-using-scratch-and-javascript/12-iteration",
       "slides": "https://docs.google.com/presentation/d/11zT4UT0I4fa0QgwHoqp_t7fT8NCQv8FOkl65PSFbZ2Q/edit?usp=sharing"
     },
@@ -176,6 +185,7 @@
       "order": 13,
       "isFree": true,
       "publishedOn": "2020-12-30",
+      "nextLessonSlug": "iteration-patterns",
       "sourceCode": "https://github.com/learncsintamil/course-notes/tree/main/learn-programming-using-scratch-and-javascript/13-array",
       "slides": "https://docs.google.com/presentation/d/1S8F8EvOYoUFETiIdJgLuqHhozPAba_0d5SgwNV6vfSg/edit?usp=sharing"
     },
@@ -188,6 +198,7 @@
       "order": 14,
       "isFree": true,
       "publishedOn": "2020-12-31",
+      "nextLessonSlug": "breaking-and-ignoring-iteration",
       "sourceCode": "https://github.com/learncsintamil/course-notes/tree/main/learn-programming-using-scratch-and-javascript/14-four-iteration-patterns",
       "slides": "https://docs.google.com/presentation/d/1IwSr24FCfJHQQrTw9d1ulr8dSc3pSciKZb1NUv_gG90/edit?usp=sharing"
     },
@@ -200,6 +211,7 @@
       "order": 15,
       "isFree": true,
       "publishedOn": "2020-12-31",
+      "nextLessonSlug": "divide-and-conquer",
       "sourceCode": "https://github.com/learncsintamil/course-notes/tree/main/learn-programming-using-scratch-and-javascript/15-break-and-continue",
       "slides": "https://docs.google.com/presentation/d/1BLLKARPRz_nL7B7XIIkxvvGisbiNZGX11Mh3VINxyKo/edit?usp=sharing"
     },
@@ -211,6 +223,7 @@
       "duration": 1525,
       "order": 16,
       "isFree": true,
+      "nextLessonSlug": "specific-vs-generic-part-1",
       "publishedOn": "2021-01-04",
       "sourceCode": "https://github.com/learncsintamil/course-notes/tree/main/learn-programming-using-scratch-and-javascript/16-divide-and-conquer",
       "slides": "https://docs.google.com/presentation/d/1-wpRdwVEz2NLjDjPrPVENFz3Fpirk8lYT0gz7wNfbLQ/edit?usp=sharing"
@@ -223,6 +236,7 @@
       "duration": 1247,
       "order": 17,
       "isFree": true,
+      "nextLessonSlug": "specific-vs-generic-part-2",
       "publishedOn": "2021-01-08",
       "sourceCode": "https://github.com/learncsintamil/course-notes/tree/main/learn-programming-using-scratch-and-javascript/18-specific-vs-generic-part-ii",
       "slides": "https://docs.google.com/presentation/d/17iR0nzWKe1w2TgwOpa_1fPN8xSqWn-O4oBwdPxZst5k/edit?usp=sharing"
@@ -235,6 +249,7 @@
       "duration": 1168,
       "order": 18,
       "isFree": true,
+      "nextLessonSlug": null,
       "publishedOn": "2021-01-08",
       "sourceCode": "https://github.com/learncsintamil/course-notes/tree/main/learn-programming-using-scratch-and-javascript/18-specific-vs-generic-part-ii",
       "slides": "https://docs.google.com/presentation/d/17iR0nzWKe1w2TgwOpa_1fPN8xSqWn-O4oBwdPxZst5k/edit?usp=sharing"
